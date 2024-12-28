@@ -1,0 +1,27 @@
+{{ with .Site.Data.home.countdown }}
+{{ if .enable }}
+
+{{ "<!-- Countdown Section -->" | safeHTML }}
+<section class="section-countdown" id="countdown">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="row">
+
+            <h3 data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true"><i class="{{ .icon }}"></i> {{ .title }}</h3>
+            
+            <!-- COUNTDOWN -->
+            <div class="countdown" data-aos="custom-fade-up" data-aos-delay="200" data-aos-once="true" data-timer="{{ .countdown }}"></div>
+            <!-- /COUNTDOWN -->
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}

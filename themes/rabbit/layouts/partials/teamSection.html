@@ -1,0 +1,41 @@
+{{ with .Site.Data.home.team }}
+{{ if .enable }}
+
+{{ "<!-- Section Team -->" | safeHTML }}
+<section class="section-team" id="team">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="row">
+
+          <h3 data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true">{{ .title }}</h3>
+          {{ $counter := 0 }}
+          {{ range .member }}
+          {{ $counter = add $counter 1 }}
+          <div class="col-md-4">
+            <div class="team-box" data-aos="custom-fade-up" data-aos-delay="{{ $counter }}00" data-aos-once="true">
+                <img src="{{ .image | absURL }}" alt="{{ .title }}">
+              <h2>{{ .title }}</h2>
+              <p>{{ .text | safeHTML }}</p>
+              <div class="social-icons">
+                <ul>
+                {{ range .socialIcons }}   
+                  <li><a href="{{ .url }}" target="_blank" title="{{ .title }}"><i aria-hidden="true" class="{{ .icon }}"></i></a></li>
+                {{ end }}
+                </ul>
+                </div>
+            </div>
+          </div>
+          {{ end }}
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}

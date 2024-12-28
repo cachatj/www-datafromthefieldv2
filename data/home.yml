@@ -1,0 +1,169 @@
+### Sections content configuration file
+### Here you can find all content in all pre-build sections
+
+### Header [ headerSection ]
+header:
+  enable: true
+  logo: "/images/logo.png"
+  widthLogo: 500
+  heightLogo: 143
+  description: "Our website is under construction."
+  button: "Discover"
+  urlButton: "#countdown"
+  socialIcons:
+    - title: "YouTube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/"
+
+    - title: "Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://www.twitter.com/"
+
+    - title: "Facebook"
+      icon: "fa-brands fa-facebook"
+      url: "https://facebook.com/"
+
+    - title: "Dribbble"
+      icon: "fa-brands fa-dribbble"
+      url: "https://www.dribbble.com/"
+
+    - title: "Instagram"
+      icon: "fa-brands fa-instagram"
+      url: "https://www.instagram.com/"
+
+### Countdown [ countdownSection ]
+countdown:
+  enable: true
+  icon: "fa-regular fa-clock"
+  title: "We are Coming Soon..."
+  countdown: "Jun 27, 2027 20:39:00"
+
+### Services [ servicesSection ]
+services:
+  enable: true
+  title: "OUR SERVICES."
+  items:
+    - title: "Inovative Ideas"
+      icon: "fas fa-laptop"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+
+    - title: "Clean code"
+      icon: "fas fa-code"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+
+    - title: "Easy to Customise"
+      icon: "fas fa-cogs"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+
+    - title: "Feel Like A Star"
+      icon: "fa-solid fa-star"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+
+    - title: "Great Support"
+      icon: "fas fa-bullhorn"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+
+    - title: "24/7 Support"
+      icon: "fas fa-paper-plane"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+
+### Subscribe [ subscribeSection ]
+subscribe:
+  enable: true
+  title: "SUBSCRIBE TO OUR NEWSLETTER."
+  # Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
+  mailChimpURL: "https://stevedogs.us9.list-manage.com/subscribe/post?u=df0aa2ea10f32337b29b342d4&id=41ddc569b4"
+  icon: "fas fa-envelope"
+
+### Team [ teamSection ]
+team:
+  enable: true
+  title: "ABOUT US."
+  member:
+    - title: "Johnatan Doe"
+      image: "/images/team1.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+    - title: "Juliana Anderson"
+      image: "/images/team2.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+    - title: "Scolara Visari"
+      image: "/images/team3.jpg"
+      text: "We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos."
+      socialIcons:
+      - title: "Twitter"
+        icon: "fa-brands fa-x-twitter"
+        url: "https://www.twitter.com/"
+
+      - title: "Facebook"
+        icon: "fa-brands fa-facebook"
+        url: "https://facebook.com/"
+
+      - title: "Dribbble"
+        icon: "fa-brands fa-dribbble"
+        url: "https://www.dribbble.com/"
+
+      - title: "Instagram"
+        icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/"
+
+### Contact [ contactSection ]
+contact:
+  enable: true
+  title: "GET IN TOUCH."
+  reCAPTCHAKey: "6LfoYHAqAAAAAOSbD-upRyX59beS2BvvejKtoQCl" #YOUR reCAPTCHA v2 key
+  formspreeFormID: "xvgokokq" #YOUR FORMSPREE FORM ID
+
+### Map [ mapSection ]
+map:
+  enable: true
+  # Google Maps widget: If "googleMapsApiKey" is not set, no key will be passed to Google (which likely results in a broken map widget).
+  googleMapsApiKey: "AIzaSyAV1KS10sb3O462XosfZTKohHJwi6C0joo"
+  latitude: "-37.8602828"
+  longitude: "145.079616"
+  iconLocation: "/images/icon-location.png"
+  titleIconLocation: "Melbourne, Australia"
+  colorMap: "#2d313f"
+  mapZoom: 10
+  items:
+    - title: "Melbourne, Australia"
+      icon: "fas fa-location-dot"
+
+    - title: "+61 3 8376 6284"
+      icon: "fas fa-phone"
+
+    - title: "youremail@youremailaddress.com"
+      icon: "fas fa-paper-plane"

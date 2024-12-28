@@ -1,0 +1,24 @@
+{{ with .Site.Data.home.subscribe }}
+{{ if .enable }}
+
+{{ "<!-- Section Subscribe -->" | safeHTML }}
+<section class="section-subscribe" id="subscribe">
+    <div class="container">
+        <div class="row">
+          <h3 data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true">{{ .title }}</h3>
+          <form id="ajaxChimp" data-aos="custom-fade-up" data-aos-delay="200" data-aos-once="true">
+            <input id="mc-email" type="text" placeholder="{{ i18n "subscribe" }}">
+            <button type="submit"><i class="{{ .icon }}"></i></button>
+            <label for="mc-email"></label>
+        </form>
+        </div>
+      </div>
+      <script>
+                    
+        var mailChimpURL = "{{ .mailChimpURL }}"
+
+    </script>
+</section>
+
+{{ end }}
+{{ end }}
