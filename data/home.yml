@@ -7,8 +7,8 @@ header:
   logo: "/images/logo.png"
   widthLogo: 500
   heightLogo: 143
-  description: "Our website is under construction."
-  button: "Discover"
+  description: "The Midwest's Local Drone Show Company."
+  button: "Schedule for Your Event"
   urlButton: "#countdown"
   socialIcons:
     - title: "YouTube"

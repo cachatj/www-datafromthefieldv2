@@ -531,7 +531,7 @@ tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 
 # Footer Settings
 [params.footer]
-copyright = "Rabbit © 2024. Design & Coded by <a href='http://themeforest.net/user/Mountain-Themes' target='_blank'> Mountain-Themes.</a>"
+copyright = "JCachat © 2024. Design & Coded by CCV Research, LLC.</a>"
 
 # Sitemap Settings
 [sitemap]
