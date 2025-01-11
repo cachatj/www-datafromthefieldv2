@@ -1,0 +1,33 @@
+{{ with .Site.Data.home.contact }}
+{{ if .enable }}
+
+{{ "<!-- Section Contact -->" | safeHTML }}
+<section class="section-contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <h2 data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true">{{ .title }}</h2>
+      <div class="col-md-12">
+        <template id="contact-success">
+          <div class="success-box">
+            <i class="fa fa-check"></i> {{default "Thank you for contacting us. You will hear from us soon." ($.Param "contact-success")}}
+        </div>
+        </template>
+        <template id="contact-error">
+          <div class="error-box">
+            <i class="fa fa-check"></i> {{default "We are facing an issue submitting the contact form. Please try again later." ($.Param "contact-error")}}
+          </div>
+        </template>
+          <form id="contact-form"data-dynamic-form data-success="#contact-success" data-error="#contact-error" action="https://formspree.io/f/{{ .formspreeFormID }}" method="post">
+              <div data-aos="custom-fade-up" data-aos-delay="200" data-aos-once="true"><input type="text" name="name" id="name" placeholder="{{ i18n "yourName" }}" /></div>
+              <div data-aos="custom-fade-up" data-aos-delay="300" data-aos-once="true"><input type="email" name="email" id="email" placeholder="{{ i18n "yourEmail" }}" /></div>
+              <div data-aos="custom-fade-up" data-aos-delay="400" data-aos-once="true"><textarea name="msg" id="msg" placeholder="{{ i18n "yourMessage" }}"></textarea></div>
+              <div data-aos="custom-fade-up" data-aos-delay="400" data-aos-once="true"><input type="submit" name="submit" id="submit" value="{{ i18n "sendMessage" }}" /></div>
+              <div data-aos="custom-fade-up" data-aos-delay="600" data-aos-once="true" class="g-recaptcha" data-sitekey="{{ .reCAPTCHAKey }}"></div> <!-- replace with your recaptcha SITE key not secret key -->
+          </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}

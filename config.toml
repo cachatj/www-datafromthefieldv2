@@ -1,8 +1,8 @@
 # General Settings
-title = "Rabbit - Coming Soon & Under Construction Hugo Theme"
+title = "Mountain - Coming Soon & Under Construction Hugo Theme"
 baseURL = "" #YOUR SITE URL
 languageCode = "en-us"
-theme = ["rabbit", "hugo-shortcode-timeline"]
+theme = "mountain"
 resourceDir = "resources"
 [pagination]
   pagerSize = 4
@@ -513,13 +513,17 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 
 # Main Settings
 [params]
-defaultLogo = "RABBIT"
+defaultLogo = "Mountain"
 defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "under construction", "coming soon", "modern", "countdown", "hugo theme", "creative"]
-defaultDescription = "Rabbit - Coming Soon & Under Construction Hugo Theme"
+defaultDescription = "Mountain - Coming Soon & Under Construction Hugo Theme"
 dateFormat = "January 2, 2006"
 authorName = "Mountain-Themes"
-disqusComments = "rabbit-hugo" #YOUR DISQUS COMMENTS SHORTNAME
-googleAnalytics = " " #YOUR GOOGLE ANALYTICS CODE
+disqusComments = "mountain-hugo" #YOUR DISQUS COMMENTS SHORTNAME
+googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
+
+# Preloader Settings
+[params.preloader]
+logo = "images/spinner.gif"
 
 # Sidebar
 [params.sidebar]
@@ -531,7 +535,35 @@ tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 
 # Footer Settings
 [params.footer]
-copyright = "JCachat © 2024. Design & Coded by CCV Research, LLC.</a>"
+copyright = "Mountain © 2024. Design & Coded by <a href='http://themeforest.net/user/Mountain-Themes' target='_blank'> Mountain-Themes.</a>"
+
+# Up Button Settings
+[params.upBtn]
+icon = "fa-solid fa-chevron-up"
+url = "#top"
+
+# Social Settings
+[[params.social]]
+title = "YouTube"
+icon = "fa-brands fa-youtube"
+url = "https://www.youtube.com/"
+[[params.social]]
+title = "Twitter"
+icon = "fa-brands fa-x-twitter"
+url = "https://www.twitter.com/"
+[[params.social]]
+title = "Facebook"
+icon = "fa-brands fa-facebook"
+url = "https://facebook.com/"
+[[params.social]]
+title = "Dribbble"
+icon = "fa-brands fa-dribbble"
+url = "https://www.dribbble.com/"
+[[params.social]]
+title = "Instagram"
+icon = "fa-brands fa-instagram"
+url = "https://www.instagram.com/"
+
 
 # Sitemap Settings
 [sitemap]
