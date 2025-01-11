@@ -276,7 +276,8 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
-  url = "blog/"
+  #url = "blog/"
+  url = ""
   weight = 6
 
 # Main Settings
@@ -287,7 +288,7 @@ defaultDescription = "Data from the Field - geospatial data science, machine lea
 dateFormat = "January 2, 2006"
 authorName = "jcachat"
 disqusComments = "mountain-hugo" #YOUR DISQUS COMMENTS SHORTNAME
-googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
+googleAnalytics = "G-PHRTNHNRLN" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
 [params.preloader]
