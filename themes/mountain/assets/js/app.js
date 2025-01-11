@@ -67,8 +67,8 @@ jQuery.noConflict()(function($) {
 /* ================================= */
 
 	function mt_page_loader() {
-		$(".loader-icon").delay(500).fadeOut();
-		$(".page-loader").delay(700).fadeOut("slow");
+		$(".loader-icon").delay(500).fadeOut(1200);    // Was 500, fadeOut had no duration
+		$(".page-loader").delay().fadeOut();   // Was 700, fadeOut was "slow" (600ms)
 		
 	} 
 

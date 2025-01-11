@@ -41,41 +41,42 @@ html, body {
   
   a {
 	text-decoration: none !important;
-	color: #000;
+	color: #29ABE2;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-  
-	&:hover {
-	  text-decoration: none !important;
-	  color: #8f8f8f;
-	  -webkit-transition: all 0.3s ease-in-out;
-	  -moz-transition: all 0.3s ease-in-out;
-	  -ms-transition: all 0.3s ease-in-out;
-	  -o-transition: all 0.3s ease-in-out;
-	  transition: all 0.3s ease-in-out;
-	}
   }
 
-  h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: $heading_font;
-	font-weight: 500;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
+  a:hover {
+	text-decoration: none !important;
+	color: #29ABE2;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+
+
+	h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $heading_font;
+		font-weight: 500;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
   
   .page-loader {
 	background: $background_pageloader;
