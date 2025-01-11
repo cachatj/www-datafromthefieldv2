@@ -13,129 +13,16 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 # Menu Settings
 [menu]
 [[menu.main]]
-  identifier = "single"
-  name = "Single image"
+  identifier = "slideshow"
+  name = "Data Visualizations"
   url = ""
   weight = 1
-  [[menu.main]]
-    identifier = "classic-single"
-    parent = "single"
-    name = "Classic"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "balls-single-image"
-    parent = "single"
-    name = "Balls"
-    url = "/single-image/balls/"
-    weight = 2
-  [[menu.main]]
-    identifier = "bubbles-single-image"
-    parent = "single"
-    name = "Bubbles"
-    url = "/single-image/bubbles/"
-    weight = 3
-  [[menu.main]]
-    identifier = "confetti-single-image"
-    parent = "single"
-    name = "Confetti"
-    url = "/single-image/confetti/"
-    weight = 4
-  [[menu.main]]
-    identifier = "constellation-single-image"
-    parent = "single"
-    name = "Constellation"
-    url = "/single-image/constellation/"
-    weight = 5
-  [[menu.main]]
-    identifier = "fireworks-single-image"
-    parent = "single"
-    name = "Fireworks"
-    url = "/single-image/fireworks/"
-    weight = 6
-  [[menu.main]]
-    identifier = "geometric-single-image"
-    parent = "single"
-    name = "Geometric"
-    url = "/single-image/geometric/"
-    weight = 7
-  [[menu.main]]
-    identifier = "low-poly-single-image"
-    parent = "single"
-    name = "Low poly"
-    url = "/single-image/low-poly/"
-    weight = 8
-  [[menu.main]]
-    identifier = "particles-single-image"
-    parent = "single"
-    name = "Particles"
-    url = "/single-image/particles/"
-    weight = 9
-  [[menu.main]]
-    identifier = "rain-single-image"
-    parent = "single"
-    name = "Rain"
-    url = "/single-image/rain/"
-    weight = 10
-  [[menu.main]]
-    identifier = "rainbow-squares-single-image"
-    parent = "single"
-    name = "Rainbow Squares"
-    url = "/single-image/rainbow-squares/"
-    weight = 11
-  [[menu.main]]
-    identifier = "shooting-stars-single-image"
-    parent = "single"
-    name = "Shooting Stars"
-    url = "/single-image/shooting-stars/"
-    weight = 12
-  [[menu.main]]
-    identifier = "winter-single-image"
-    parent = "single"
-    name = "Winter"
-    url = "/single-image/winter/"
-    weight = 13
-[[menu.main]]
-  identifier = "slideshow"
-  name = "Image slideshow"
-  url = ""
-  weight = 2
-  [[menu.main]]
-    identifier = "classic-slideshow"
-    parent = "slideshow"
-    name = "Classic"
-    url = "/slideshow-images/classic/"
-    weight = 1
-  [[menu.main]]
-    identifier = "balls-slideshow-images"
-    parent = "slideshow"
-    name = "Balls"
-    url = "/slideshow-images/balls/"
-    weight = 2
-  [[menu.main]]
-    identifier = "bubbles-slideshow-images"
-    parent = "slideshow"
-    name = "Bubbles"
-    url = "/slideshow-images/bubbles/"
-    weight = 3
-  [[menu.main]]
-    identifier = "confetti-slideshow-images"
-    parent = "slideshow"
-    name = "Confetti"
-    url = "/slideshow-images/confetti/"
-    weight = 4
   [[menu.main]]
     identifier = "constellation-slideshow-images"
     parent = "slideshow"
     name = "Constellation"
     url = "/slideshow-images/constellation/"
     weight = 5
-  [[menu.main]]
-    identifier = "fireworks-slideshow-images"
-    parent = "slideshow"
-    name = "Fireworks"
-    url = "/slideshow-images/fireworks/"
-    weight = 6
   [[menu.main]]
     identifier = "geometric-slideshow-images"
     parent = "slideshow"
@@ -155,111 +42,16 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
     url = "/slideshow-images/particles/"
     weight = 9
   [[menu.main]]
-    identifier = "rainbow-squares-slideshow-images"
-    parent = "slideshow"
-    name = "Rainbow Squares"
-    url = "/slideshow-images/rainbow-squares/"
-    weight = 10
-  [[menu.main]]
-    identifier = "shooting-stars-slideshow-images"
-    parent = "slideshow"
-    name = "Shooting Stars"
-    url = "/slideshow-images/shooting-stars/"
-    weight = 11
-  [[menu.main]]
     identifier = "winter-slideshow-images"
     parent = "slideshow"
     name = "Winter"
     url = "/slideshow-images/winter/"
     weight = 12
 [[menu.main]]
-  identifier = "youtube"
-  name = "YouTube background"
-  url = ""
-  weight = 3
-    [[menu.main]]
-    identifier = "classic-youtube-background"
-    parent = "youtube"
-    name = "Classic"
-    url = "/youtube-background/classic/"
-    weight = 1
-  [[menu.main]]
-    identifier = "balls-youtube-background"
-    parent = "youtube"
-    name = "Balls"
-    url = "/youtube-background/balls/"
-    weight = 2
-  [[menu.main]]
-    identifier = "bubbles-youtube-background"
-    parent = "youtube"
-    name = "Bubbles"
-    url = "/youtube-background/bubbles/"
-    weight = 3
-  [[menu.main]]
-    identifier = "confetti-youtube-background"
-    parent = "youtube"
-    name = "Confetti"
-    url = "/youtube-background/confetti/"
-    weight = 4
-  [[menu.main]]
-    identifier = "constellation-youtube-background"
-    parent = "youtube"
-    name = "Constellation"
-    url = "/youtube-background/constellation/"
-    weight = 5
-  [[menu.main]]
-    identifier = "fireworks-youtube-background"
-    parent = "youtube"
-    name = "Fireworks"
-    url = "/youtube-background/fireworks/"
-    weight = 6
-  [[menu.main]]
-    identifier = "geometric-youtube-background"
-    parent = "youtube"
-    name = "Geometric"
-    url = "/youtube-background/geometric/"
-    weight = 7
-  [[menu.main]]
-    identifier = "low-poly-youtube-background"
-    parent = "youtube"
-    name = "Low poly"
-    url = "/youtube-background/low-poly/"
-    weight = 8
-  [[menu.main]]
-    identifier = "particles-youtube-background"
-    parent = "youtube"
-    name = "Particles"
-    url = "/youtube-background/particles/"
-    weight = 9
-  [[menu.main]]
-    identifier = "rainbow-squares-youtube-background"
-    parent = "youtube"
-    name = "Rainbow Squares"
-    url = "/youtube-background/rainbow-squares/"
-    weight = 10
-  [[menu.main]]
-    identifier = "shooting-stars-youtube-background"
-    parent = "youtube"
-    name = "Shooting Stars"
-    url = "/youtube-background/shooting-stars/"
-    weight = 11
-  [[menu.main]]
-    identifier = "winter-youtube-background"
-    parent = "youtube"
-    name = "Winter"
-    url = "/youtube-background/winter/"
-    weight = 12
-[[menu.main]]
   identifier = "pack-1"
-  name = "Pack #1"
+  name = "Swarm Pack"
   url = ""
   weight = 4
-    [[menu.main]]
-    identifier = "abstractart-pack-1"
-    parent = "pack-1"
-    name = "Abstractart"
-    url = "/pack-1/abstractart/"
-    weight = 1
   [[menu.main]]
     identifier = "alien-pack-1"
     parent = "pack-1"
@@ -379,7 +171,7 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
   name = "Pack #2"
   url = ""
   weight = 5
-    [[menu.main]]
+  [[menu.main]]
     identifier = "birds-pack-2"
     parent = "pack-2"
     name = "Birds"
@@ -514,10 +306,10 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 # Main Settings
 [params]
 defaultLogo = "Mountain"
-defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "under construction", "coming soon", "modern", "countdown", "hugo theme", "creative"]
-defaultDescription = "Mountain - Coming Soon & Under Construction Hugo Theme"
+defaultKeywords = ["geospatial data science", "machine learning", "gps", "movement pattern", "trajectory profiling", "GPS telemetry", "offroad", "remote", "connectivity", "starlink", "onboard sensors", "vehicle technology"]
+defaultDescription = "Data from the Field - geospatial data science, machine learning engineering from the field, usually off-road"
 dateFormat = "January 2, 2006"
-authorName = "Mountain-Themes"
+authorName = "jcachat"
 disqusComments = "mountain-hugo" #YOUR DISQUS COMMENTS SHORTNAME
 googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
@@ -535,7 +327,7 @@ tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 
 # Footer Settings
 [params.footer]
-copyright = "Mountain © 2024. Design & Coded by <a href='http://themeforest.net/user/Mountain-Themes' target='_blank'> Mountain-Themes.</a>"
+copyright = "Data from the Field © 2025. Design & Coded by <a href='https://jcachat.com' target='_blank'> Jonathan Cachat / CCV Research, LLC.</a>"
 
 # Up Button Settings
 [params.upBtn]
@@ -546,23 +338,19 @@ url = "#top"
 [[params.social]]
 title = "YouTube"
 icon = "fa-brands fa-youtube"
-url = "https://www.youtube.com/"
+url = "https://www.youtube.com/@jcachat"
 [[params.social]]
 title = "Twitter"
 icon = "fa-brands fa-x-twitter"
-url = "https://www.twitter.com/"
+url = "https://www.x.com/jcachat"
 [[params.social]]
-title = "Facebook"
-icon = "fa-brands fa-facebook"
-url = "https://facebook.com/"
-[[params.social]]
-title = "Dribbble"
-icon = "fa-brands fa-dribbble"
-url = "https://www.dribbble.com/"
+title = "LinkedIn"
+icon = "fa-brands fa-linkedin"
+url = "https://linkedin.com/in/jcachat"
 [[params.social]]
 title = "Instagram"
 icon = "fa-brands fa-instagram"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/jcachat"
 
 
 # Sitemap Settings

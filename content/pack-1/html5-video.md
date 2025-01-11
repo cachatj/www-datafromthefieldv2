@@ -15,7 +15,7 @@ sections:
 html5Video: 
   enable: true
   ### URL or relative path to MP4 video
-  videoURL: "/video/big_buck_bunny_720p_1mb.mp4"
+  videoURL: "/video/flying_moments.mp4"
   mute: true
   loop: true
   ### Image used as fallback on mobile devices

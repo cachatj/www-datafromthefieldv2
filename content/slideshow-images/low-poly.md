@@ -7,27 +7,29 @@ type: coming-soon
 sections:
   - headerSection
   - servicesSection
-  - subscribeSection
-  - contactSection
+  #- subscribeSection
+  #- contactSection
   - mapSection
 
 # Background images
 slideshowImages:
   enable: true
-  duration: 3000
+  duration: 6000
   fade: 750
   images:
-   - "/images/background1.jpg"
-   - "/images/background2.jpg"
-   - "/images/background3.jpg"
-   - "/images/background4.jpg"
+   - "/images/background-landscape-nature-rock-wilderness-mountain.jpg"
+   - "/images/background-landscape-tree-forest-outdoor-rock-creek.jpg"
+   - "/images/background-mountain-snow-winter.jpg"
+   - "/images/background-landscape-tree-nature-forest-path.jpg"
+   - "/images/background-path-woodland-nature-forest-ecosystem-temperate-broadleaf-and-mixed-forest.jpg"
+   - "/images/background-landscape-tree-nature-rock-wilderness.jpg"
 
 # Background effect
 LowPolyEffect: 
   enable: true
   color: "rgba(255,255,255,0.04)"
   opacity: 0.3
-  size: 0.3
+  size: 0.6
   density: 100
 
 ---
