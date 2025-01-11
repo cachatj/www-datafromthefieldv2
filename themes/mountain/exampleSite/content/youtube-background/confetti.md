@@ -1,5 +1,5 @@
 ---
-title: Mountain - Confetti – YouTube Background
+title: Confetti – YouTube Background
 builder: true
 type: coming-soon
 

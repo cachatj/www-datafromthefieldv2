@@ -1,5 +1,5 @@
 ---
-title: Mountain - Balls – Single Image
+title: Balls – Single Image
 builder: true
 type: coming-soon
 

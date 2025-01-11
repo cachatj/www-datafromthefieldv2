@@ -1,5 +1,5 @@
 ---
-title: Mountain - Winter – Single Image
+title: Winter – Single Image
 builder: true
 type: coming-soon
 

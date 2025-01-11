@@ -1,5 +1,5 @@
 ---
-title: Mountain - Winter – Slideshow Images
+title: Winter – Slideshow Images
 builder: true
 type: coming-soon
 

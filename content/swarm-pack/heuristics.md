@@ -1,5 +1,5 @@
 ---
-title: Mountain - Heuristics – Effect
+title: Heuristics – Data from the Field
 builder: true
 type: coming-soon
 

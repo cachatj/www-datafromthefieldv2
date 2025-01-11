@@ -1,5 +1,5 @@
 ---
-title: Mountain - Particles – Slideshow Images
+title: Particles – Slideshow Images
 builder: true
 type: coming-soon
 

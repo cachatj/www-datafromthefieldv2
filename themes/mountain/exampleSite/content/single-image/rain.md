@@ -1,5 +1,5 @@
 ---
-title: Mountain - Rain – Single Image
+title: Rain – Single Image
 builder: true
 type: coming-soon
 

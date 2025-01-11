@@ -1,5 +1,5 @@
 ---
-title: Mountain - Geometric – Single Image
+title: Geometric – Single Image
 builder: true
 type: coming-soon
 

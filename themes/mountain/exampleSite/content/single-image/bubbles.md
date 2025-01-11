@@ -1,5 +1,5 @@
 ---
-title: Mountain - Bubbles – Single Image
+title: Bubbles – Single Image
 builder: true
 type: coming-soon
 

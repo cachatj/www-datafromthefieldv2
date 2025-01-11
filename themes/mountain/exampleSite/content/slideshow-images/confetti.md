@@ -1,5 +1,5 @@
 ---
-title: Mountain - Confetti – Slideshow Images
+title: Confetti – Slideshow Images
 builder: true
 type: coming-soon
 

@@ -1,5 +1,5 @@
 ---
-title: Mountain - Balls – Slideshow Images
+title: Balls – Slideshow Images
 builder: true
 type: coming-soon
 

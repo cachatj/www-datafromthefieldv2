@@ -1,5 +1,5 @@
 ---
-title: Mountain - Shooting Stars – Single Image
+title: Shooting Stars – Single Image
 builder: true
 type: coming-soon
 

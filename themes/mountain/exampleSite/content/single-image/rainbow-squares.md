@@ -1,5 +1,5 @@
 ---
-title: Mountain - Rainbow Squares – Single Image
+title: Rainbow Squares – Single Image
 builder: true
 type: coming-soon
 

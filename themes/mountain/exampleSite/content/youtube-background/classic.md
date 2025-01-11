@@ -1,5 +1,5 @@
 ---
-title: Mountain - Classic – YouTube Background
+title: Classic – YouTube Background
 builder: true
 type: coming-soon
 

@@ -1,5 +1,5 @@
 ---
-title: Mountain - Bubbles – YouTube Background
+title: Bubbles – YouTube Background
 builder: true
 type: coming-soon
 

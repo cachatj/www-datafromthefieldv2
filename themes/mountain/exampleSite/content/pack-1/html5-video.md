@@ -1,5 +1,5 @@
 ---
-title: Mountain - HTML5 - Background Video
+title: HTML5 - Background Video
 builder: true
 type: coming-soon
 

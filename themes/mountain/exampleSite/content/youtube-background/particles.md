@@ -1,5 +1,5 @@
 ---
-title: Mountain - Particles – YouTube Background
+title: Particles – YouTube Background
 builder: true
 type: coming-soon
 

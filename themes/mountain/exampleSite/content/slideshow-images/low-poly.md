@@ -1,5 +1,5 @@
 ---
-title: Mountain - Low Poly – Slideshow Images
+title: Low Poly – Slideshow Images
 builder: true
 type: coming-soon
 

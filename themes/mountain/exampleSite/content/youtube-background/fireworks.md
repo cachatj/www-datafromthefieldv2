@@ -1,5 +1,5 @@
 ---
-title: Mountain - Fireworks – YouTube Background
+title: Fireworks – YouTube Background
 builder: true
 type: coming-soon
 

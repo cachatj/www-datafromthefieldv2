@@ -1,5 +1,5 @@
 ---
-title: Mountain - Rain - Background Video
+title: Rain - Background Video
 builder: true
 type: coming-soon
 

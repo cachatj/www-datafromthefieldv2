@@ -1,5 +1,5 @@
 ---
-title: Mountain - Triangle – Effect
+title: Triangle – Data from the Field
 builder: true
 type: coming-soon
 

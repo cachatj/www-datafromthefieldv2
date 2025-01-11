@@ -1,5 +1,5 @@
 ---
-title: Mountain - Fireworks – Slideshow Images
+title: Fireworks – Slideshow Images
 builder: true
 type: coming-soon
 

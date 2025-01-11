@@ -1,5 +1,5 @@
 ---
-title: Mountain - Constellation – Slideshow Images
+title: Constellation – Slideshow Images
 builder: true
 type: coming-soon
 

@@ -1,5 +1,5 @@
 ---
-title: Mountain - Low Poly – YouTube Background
+title: Low Poly – YouTube Background
 builder: true
 type: coming-soon
 

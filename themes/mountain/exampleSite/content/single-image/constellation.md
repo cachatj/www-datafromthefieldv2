@@ -1,5 +1,5 @@
 ---
-title: Mountain - Constellation – Single Image
+title: Constellation – Single Image
 builder: true
 type: coming-soon
 

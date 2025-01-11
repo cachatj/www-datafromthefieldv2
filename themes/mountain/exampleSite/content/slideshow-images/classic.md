@@ -1,5 +1,5 @@
 ---
-title: Mountain - Classic – Slideshow Images
+title: Classic – Slideshow Images
 builder: true
 type: coming-soon
 

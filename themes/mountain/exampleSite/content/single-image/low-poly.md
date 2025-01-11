@@ -1,5 +1,5 @@
 ---
-title: Mountain - Low Poly – Single Image
+title: Low Poly – Single Image
 builder: true
 type: coming-soon
 

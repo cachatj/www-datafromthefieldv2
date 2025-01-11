@@ -1,5 +1,5 @@
 ---
-title: Mountain - Rainbow Squares – Slideshow Images
+title: Rainbow Squares – Slideshow Images
 builder: true
 type: coming-soon
 

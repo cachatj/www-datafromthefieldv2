@@ -1,5 +1,5 @@
 ---
-title: Mountain - Shooting Stars – Slideshow Images
+title: Shooting Stars – Slideshow Images
 builder: true
 type: coming-soon
 

@@ -1,6 +1,6 @@
 # General Settings
-title = "Mountain - Coming Soon & Under Construction Hugo Theme"
-baseURL = "" #YOUR SITE URL
+title = "Data From The Field - geospatial data science, machine learning engineering from the field, usually off-road"
+baseURL = "datafromthefield.com" #YOUR SITE URL
 languageCode = "en-us"
 theme = "mountain"
 resourceDir = "resources"
@@ -273,6 +273,12 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
     name = "Winter"
     url = "/land-pack/winter/"
     weight = 19
+  [[menu.main]]
+    identifier = "youtube-constellation.md"
+    parent = "land-pack"
+    name = "YouTube Constellation"
+    url = "/land-pack/youtube-constellation/"
+    weight = 20
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
@@ -280,61 +286,62 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
   url = ""
   weight = 6
 
-# Main Settings
+
+# Blog Settings
 [params]
-defaultLogo = "Mountain"
-defaultKeywords = ["geospatial data science", "machine learning", "gps", "movement pattern", "trajectory profiling", "GPS telemetry", "offroad", "remote", "connectivity", "starlink", "onboard sensors", "vehicle technology"]
-defaultDescription = "Data from the Field - geospatial data science, machine learning engineering from the field, usually off-road"
-dateFormat = "January 2, 2006"
-authorName = "jcachat"
-disqusComments = "mountain-hugo" #YOUR DISQUS COMMENTS SHORTNAME
-googleAnalytics = "G-PHRTNHNRLN" #YOUR GOOGLE ANALYTICS CODE
+  defaultLogo = "Data from the Field"
+  defaultKeywords = ["geospatial data science", "machine learning", "gps", "movement pattern", "trajectory profiling", "GPS telemetry", "offroad", "remote", "connectivity", "starlink", "onboard sensors", "vehicle technology"]
+  defaultDescription = "Data from the Field - geospatial data science, machine learning engineering from the field, usually off-road"
+  dateFormat = "January 2, 2006"
+  authorName = "jcachat"
+  disqusComments = "mountain-hugo" #YOUR DISQUS COMMENTS SHORTNAME
+  googleAnalytics = "G-PHRTNHNRLN" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
 [params.preloader]
-logo = "images/spinner.gif"
+  logo = "images/spinner.gif"
 
-# Sidebar
+# Blog Sidebar
 [params.sidebar]
-enable = 1 #SIDEBAR SHOW: [ 1 - yes, 0 - no ]
-search = 1 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
-latestPosts = 1 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
-categories = 1 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
-tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+  enable = 1 #SIDEBAR SHOW: [ 1 - yes, 0 - no ]
+  search = 1 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
+  latestPosts = 1 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
+  categories = 1 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+  tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
 
 # Footer Settings
 [params.footer]
-copyright = "Data from the Field © 2025. Design & Coded by <a href='https://jcachat.com' target='_blank'> Jonathan Cachat / CCV Research, LLC.</a>"
+  copyright = "Data from the Field © 2025. Design & Coded by <a href='https://jcachat.com' target='_blank'> Jonathan Cachat / CCV Research, LLC.</a>"
 
 # Up Button Settings
 [params.upBtn]
-icon = "fa-solid fa-chevron-up"
-url = "#top"
+  icon = "fa-solid fa-chevron-up"
+  url = "#top"
 
 # Social Settings
 [[params.social]]
-title = "YouTube"
-icon = "fa-brands fa-youtube"
-url = "https://www.youtube.com/@jcachat"
+  title = "YouTube"
+  icon = "fa-brands fa-youtube"
+  url = "https://www.youtube.com/@jcachat"
 [[params.social]]
-title = "Twitter"
-icon = "fa-brands fa-x-twitter"
-url = "https://www.x.com/jcachat"
+  title = "Twitter"
+  icon = "fa-brands fa-x-twitter"
+  url = "https://www.x.com/jcachat"
 [[params.social]]
-title = "LinkedIn"
-icon = "fa-brands fa-linkedin"
-url = "https://linkedin.com/in/jcachat"
+  title = "LinkedIn"
+  icon = "fa-brands fa-linkedin"
+  url = "https://linkedin.com/in/jcachat"
 [[params.social]]
-title = "Instagram"
-icon = "fa-brands fa-instagram"
-url = "https://www.instagram.com/jcachat"
+  title = "Instagram"
+  icon = "fa-brands fa-instagram"
+  url = "https://www.instagram.com/jcachat"
 
 
 # Sitemap Settings
 [sitemap]
-changefreq = "monthly"
-priority = 0.5
-filename = "sitemap.xml"
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]

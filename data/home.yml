@@ -9,7 +9,7 @@ header:
   heightLogo: 300
   title: "Data From The Field"
   description: "geospatial data science, machine learning engineering from the field, usually off-road"
-  countdown: "Feb 14, 2025 20:39:00"
+  countdown: ""
   urlMouse: "#services"
 
 ### Services [ servicesSection ]

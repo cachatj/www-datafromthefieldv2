@@ -1,5 +1,5 @@
 ---
-title: Mountain - Particles – Single Image
+title: Particles – Single Image
 builder: true
 type: coming-soon
 

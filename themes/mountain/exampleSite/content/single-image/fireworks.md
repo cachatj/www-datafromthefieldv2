@@ -1,5 +1,5 @@
 ---
-title: Mountain - Fireworks – Single Image
+title: Fireworks – Single Image
 builder: true
 type: coming-soon
 

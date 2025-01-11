@@ -1,5 +1,5 @@
 ---
-title: Mountain - Rainbow Squares – YouTube Background
+title: Rainbow Squares – YouTube Background
 builder: true
 type: coming-soon
 

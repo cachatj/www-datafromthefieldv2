@@ -1,5 +1,5 @@
 ---
-title: Mountain - Landscape Style 2 – Effect
+title: Landscape Style 2 – Data from the Field
 builder: true
 type: coming-soon
 

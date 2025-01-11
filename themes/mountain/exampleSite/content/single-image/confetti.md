@@ -1,5 +1,5 @@
 ---
-title: Mountain - Confetti – Single Image
+title: Confetti – Single Image
 builder: true
 type: coming-soon
 

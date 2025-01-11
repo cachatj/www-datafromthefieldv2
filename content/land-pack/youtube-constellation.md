@@ -1,5 +1,5 @@
 ---
-title: Mountain - Particles – YouTube Background
+title: YouTube - Constellation – Data from the Field
 builder: true
 type: coming-soon
 
@@ -15,7 +15,7 @@ sections:
 youtubeVideo: 
   enable: true
   ### Example: https://www.youtube.com/watch?v=xEBC4Tn1v8A You need a short link: xEBC4Tn1v8A
-  videoURL: "xEBC4Tn1v8A"
+  videoURL: "GecPx3ippWE"
   mute: true
   ### The path to the image used as background for the player if autoplay
   coverimage: /images/youtube-poster.png
@@ -23,10 +23,10 @@ youtubeVideo:
   poster: /images/youtube-poster.png
 
 # Background effect
-particlesEffect: 
+constellationEffect: 
   enable: true
-  maxParticles: 280
-  ### Separated by commas and quotation marks
-  colours: [ '#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50', '#F9D423' ]
+  lineColor: "rgba(255,255,255,0.3)"
+  ### Short RGBA color 
+  circleColor: "156,217,249,"
 
 ---

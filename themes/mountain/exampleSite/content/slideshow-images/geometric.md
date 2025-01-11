@@ -1,5 +1,5 @@
 ---
-title: Mountain - Geometric – Slideshow Images
+title: Geometric – Slideshow Images
 builder: true
 type: coming-soon
 

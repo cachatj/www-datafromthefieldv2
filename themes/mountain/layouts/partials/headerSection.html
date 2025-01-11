@@ -12,10 +12,11 @@
 
         <p>{{ .description | safeHTML }}</p>
 
-
+        {{ if .countdown }}
         <!-- COUNTDOWN -->
         <div class="countdown" data-timer="{{ .countdown }}"></div>
         <!-- /COUNTDOWN -->
+        {{ end }}
 
         <!-- MOUSE ICON -->
         <div class="mouse">

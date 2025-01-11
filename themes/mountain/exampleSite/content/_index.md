@@ -1,5 +1,5 @@
 ---
-title: Mountain - Coming Soon & Under Construction Hugo Theme
+title: Coming Soon & Under Construction Hugo Theme
 builder: true
 type: coming-soon
 

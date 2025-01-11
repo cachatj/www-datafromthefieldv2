@@ -1,5 +1,5 @@
 ---
-title: Mountain - Winter – YouTube Background
+title: Winter – YouTube Background
 builder: true
 type: coming-soon
 

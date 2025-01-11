@@ -1,5 +1,5 @@
 ---
-title: Mountain - Bubbles – Slideshow Images
+title: Bubbles – Slideshow Images
 builder: true
 type: coming-soon
 

@@ -1,5 +1,5 @@
 ---
-title: Mountain - Balls – YouTube Background
+title: Balls – YouTube Background
 builder: true
 type: coming-soon
 

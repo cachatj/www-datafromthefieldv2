@@ -1,5 +1,5 @@
 ---
-title: Mountain - Geometric – YouTube Background
+title: Geometric – YouTube Background
 builder: true
 type: coming-soon
 

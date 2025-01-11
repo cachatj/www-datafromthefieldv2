@@ -1,5 +1,5 @@
 ---
-title: Mountain - Shooting Stars – YouTube Background
+title: Shooting Stars – YouTube Background
 builder: true
 type: coming-soon
 

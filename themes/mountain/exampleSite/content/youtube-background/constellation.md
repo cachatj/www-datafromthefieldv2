@@ -1,5 +1,5 @@
 ---
-title: Mountain - Constellation – YouTube Background
+title: Constellation – YouTube Background
 builder: true
 type: coming-soon
 
