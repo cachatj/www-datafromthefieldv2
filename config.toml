@@ -21,7 +21,7 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
   identifier = "swarm-pack"
   name = "Swarm Pack"
   url = ""
-  weight = 1
+  weight = 2
   [[menu.main]]
     identifier = "geometric-slideshow-images"
     parent = "swarm-pack"
@@ -156,9 +156,9 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
     weight = 21
 [[menu.main]]
   identifier = "land-pack"
-  name = "land pack"
+  name = "Land Pack"
   url = ""
-  weight = 5
+  weight = 3
   [[menu.main]]
     identifier = "aurora-land-pack"
     parent = "land-pack"
@@ -194,85 +194,85 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
     parent = "land-pack"
     name = "Glitch"
     url = "/land-pack/glitch/"
-    weight = 8
+    weight = 6
   [[menu.main]]
     identifier = "liquid-land-pack"
     parent = "land-pack"
     name = "Liquid"
     url = "/land-pack/liquid/"
-    weight = 10
+    weight = 7
   [[menu.main]]
     identifier = "surface-land-pack"
     parent = "land-pack"
     name = "Surface"
     url = "/land-pack/surface/"
-    weight = 17
+    weight = 8
   [[menu.main]]
     identifier = "hills-land-pack"
     parent = "land-pack"
     name = "Hills"
     url = "/land-pack/hills/"
-    weight = 11
+    weight = 9
   [[menu.main]]
     identifier = "landscape-1-land-pack"
     parent = "land-pack"
     name = "Landscape 1"
     url = "/land-pack/landscape"
-    weight = 12
+    weight = 10
   [[menu.main]]
     identifier = "landscape-2-land-pack"
     parent = "land-pack"
     name = "Landscape 2"
     url = "/land-pack/landscape-2/"
-    weight = 13
+    weight = 11
   [[menu.main]]
     identifier = "quantum-land-pack"
     parent = "land-pack"
     name = "Quantum"
     url = "/land-pack/quantum/"
-    weight = 16
+    weight = 12
   [[menu.main]]
     identifier = "star-wars-land-pack"
     parent = "land-pack"
     name = "Star Wars"
     url = "/land-pack/star-wars/"
-    weight = 17
+    weight = 13
   [[menu.main]]
     identifier = "stars-lines-land-pack"
     parent = "land-pack"
     name = "Stars Lines"
     url = "/land-pack/stars-lines/"
-    weight = 18
+    weight = 14
   [[menu.main]]
     identifier = "topology-land-pack"
     parent = "land-pack"
     name = "Topology"
     url = "/land-pack/topology/"
-    weight = 19
+    weight = 15
   [[menu.main]]
     identifier = "water-droplet-land-pack"
     parent = "land-pack"
     name = "Water Droplet"
     url = "/land-pack/water-droplet/"
-    weight = 21
+    weight = 16
   [[menu.main]]
     identifier = "html5-video-land-pack"
     parent = "land-pack"
     name = "HTML5 Video"
     url = "/land-pack/html5-video/"
-    weight = 22
+    weight = 17
   [[menu.main]]
     identifier = "rain-video-land-pack"
     parent = "land-pack"
     name = "Rain Video"
     url = "/land-pack/rain-video/"
-    weight = 23
+    weight = 18
   [[menu.main]]
     identifier = "winter-land-pack"
     parent = "land-pack"
     name = "Winter"
     url = "/land-pack/winter/"
-    weight = 24
+    weight = 19
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
