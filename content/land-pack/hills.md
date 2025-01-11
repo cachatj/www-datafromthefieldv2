@@ -1,5 +1,5 @@
 ---
-title: Mountain - Water Droplet – Effect
+title: Mountain - Hills – Effect
 builder: true
 type: coming-soon
 
@@ -12,12 +12,9 @@ sections:
   - mapSection
 
 # Background effect
-waterDropletEffect: 
+hillsEffect: 
   enable: true
-  image: /images/water-droplet.jpg
-  maximumMassGravity: 17
-  maximumMass: 21
-  dropletGrowSpeed: 1
-  dropletShrinkSpeed: 2
+  ### Use C++ Hex colors for this effects. Recommended free program ColorMania.
+  color: 0x00092731
 
 ---

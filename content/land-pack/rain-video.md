@@ -15,7 +15,7 @@ sections:
 rainVideoEffect: 
   enable: true
   ### URL or relative path to MP4 video
-  videoURL: "/video/rain_video.mp4"
+  videoURL: "/video/rzr_rain.mp4"
   poster: /images/rain-video-poster.jpg
 
 ---

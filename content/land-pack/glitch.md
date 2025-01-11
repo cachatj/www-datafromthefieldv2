@@ -1,5 +1,5 @@
 ---
-title: Mountain - Rain – Single Image
+title: Mountain - Glitch – Effect
 builder: true
 type: coming-soon
 
@@ -12,8 +12,8 @@ sections:
   - mapSection
 
 # Background effect
-rainEffect: 
+glitchEffect: 
   enable: true
-  image: /images/background1.jpg
+  image: /images/glitch-landscape-tree-nature-forest.jpg 
 
 ---

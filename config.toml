@@ -13,290 +13,266 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 # Menu Settings
 [menu]
 [[menu.main]]
-  identifier = "slideshow"
-  name = "Data Visualizations"
+  identifier = "About"
+  name = "About"
+  url = ""
+  weight = 1
+[[menu.main]]
+  identifier = "swarm-pack"
+  name = "Swarm Pack"
   url = ""
   weight = 1
   [[menu.main]]
-    identifier = "constellation-slideshow-images"
-    parent = "slideshow"
-    name = "Constellation"
-    url = "/slideshow-images/constellation/"
-    weight = 5
-  [[menu.main]]
     identifier = "geometric-slideshow-images"
-    parent = "slideshow"
+    parent = "swarm-pack"
     name = "Geometric"
-    url = "/slideshow-images/geometric/"
-    weight = 7
+    url = "/swarm-pack/geometric/"
+    weight = 1
   [[menu.main]]
-    identifier = "low-poly-slideshow-images"
-    parent = "slideshow"
-    name = "Low poly"
-    url = "/slideshow-images/low-poly/"
-    weight = 8
-  [[menu.main]]
-    identifier = "particles-slideshow-images"
-    parent = "slideshow"
-    name = "Particles"
-    url = "/slideshow-images/particles/"
-    weight = 9
-  [[menu.main]]
-    identifier = "winter-slideshow-images"
-    parent = "slideshow"
-    name = "Winter"
-    url = "/slideshow-images/winter/"
-    weight = 12
-[[menu.main]]
-  identifier = "pack-1"
-  name = "Swarm Pack"
-  url = ""
-  weight = 4
-  [[menu.main]]
-    identifier = "alien-pack-1"
-    parent = "pack-1"
+    identifier = "alien-swarm-pack"
+    parent = "swarm-pack"
     name = "Alien"
-    url = "/pack-1/alien/"
+    url = "/swarm-pack/alien/"
     weight = 2
   [[menu.main]]
-    identifier = "aurora-pack-1"
-    parent = "pack-1"
-    name = "Aurora"
-    url = "/pack-1/aurora/"
+    identifier = "birds-swarm-pack"
+    parent = "swarm-pack"
+    name = "Birds"
+    url = "/swarm-pack/birds/"
     weight = 3
   [[menu.main]]
-    identifier = "coalesce-pack-1"
-    parent = "pack-1"
+    identifier = "coalesce-swarm-pack"
+    parent = "swarm-pack"
     name = "Coalesce"
-    url = "/pack-1/coalesce/"
+    url = "/swarm-pack/coalesce/"
     weight = 4
   [[menu.main]]
-    identifier = "connections-pack-1"
-    parent = "pack-1"
+    identifier = "connections-swarm-pack"
+    parent = "swarm-pack"
     name = "Connections"
-    url = "/pack-1/connections/"
+    url = "/swarm-pack/connections/"
     weight = 5
   [[menu.main]]
-    identifier = "gravity-pack-1"
-    parent = "pack-1"
-    name = "Gravity"
-    url = "/pack-1/gravity/"
+    identifier = "constellation-swarm-pack"
+    parent = "swarm-pack"
+    name = "Constellation"
+    url = "/swarm-pack/constellation/"
+    weight = 5
+  [[menu.main]]
+    identifier = "dots-swarm-pack"
+    parent = "swarm-pack"
+    name = "Dots"
+    url = "/swarm-pack/dots/"
     weight = 6
   [[menu.main]]
-    identifier = "html5-video-pack-1"
-    parent = "pack-1"
-    name = "HTML5 Video"
-    url = "/pack-1/html5-video/"
+    identifier = "gravity-swarm-pack"
+    parent = "swarm-pack"
+    name = "Gravity"
+    url = "/swarm-pack/gravity/"
     weight = 7
   [[menu.main]]
-    identifier = "liquid-pack-1"
-    parent = "pack-1"
-    name = "Liquid"
-    url = "/pack-1/liquid/"
+    identifier = "particles-swarm-pack"
+    parent = "swarm-pack"
+    name = "Particles"
+    url = "/swarm-pack/particles/"
     weight = 8
   [[menu.main]]
-    identifier = "magneto-pack-1"
-    parent = "pack-1"
+    identifier = "magneto-swarm-pack"
+    parent = "swarm-pack"
     name = "Magneto"
-    url = "/pack-1/magneto/"
+    url = "/swarm-pack/magneto/"
     weight = 9
   [[menu.main]]
-    identifier = "mosaic-pack-1"
-    parent = "pack-1"
+    identifier = "mosaic-swarm-pack"
+    parent = "swarm-pack"
     name = "Mosaic"
-    url = "/pack-1/mosaic/"
+    url = "/swarm-pack/mosaic/"
     weight = 10
   [[menu.main]]
-    identifier = "orbit-pack-1"
-    parent = "pack-1"
+    identifier = "orbit-swarm-pack"
+    parent = "swarm-pack"
     name = "Orbit"
-    url = "/pack-1/orbit/"
+    url = "/swarm-pack/orbit/"
     weight = 11
   [[menu.main]]
-    identifier = "pipeline-pack-1"
-    parent = "pack-1"
+    identifier = "pipeline-swarm-pack"
+    parent = "swarm-pack"
     name = "Pipeline"
-    url = "/pack-1/pipeline/"
+    url = "/swarm-pack/pipeline/"
     weight = 12
   [[menu.main]]
-    identifier = "rain-video-pack-1"
-    parent = "pack-1"
-    name = "Rain Video"
-    url = "/pack-1/rain-video/"
+    identifier = "low-poly-swarm-pack"
+    parent = "swarm-pack"
+    name = "Low poly"
+    url = "/swarm-pack/low-poly/"
     weight = 13
   [[menu.main]]
-    identifier = "shift-pack-1"
-    parent = "pack-1"
+    identifier = "shift-swarm-pack"
+    parent = "swarm-pack"
     name = "Shift"
-    url = "/pack-1/shift/"
+    url = "/swarm-pack/shift/"
     weight = 14
   [[menu.main]]
-    identifier = "stardust-pack-1"
-    parent = "pack-1"
+    identifier = "stardust-swarm-pack"
+    parent = "swarm-pack"
     name = "Stardust"
-    url = "/pack-1/stardust/"
+    url = "/swarm-pack/stardust/"
     weight = 15
   [[menu.main]]
-    identifier = "starfield-pack-1"
-    parent = "pack-1"
-    name = "Starfield"
-    url = "/pack-1/starfield/"
+    identifier = "hawking-swarm-pack"
+    parent = "swarm-pack"
+    name = "Hawking"
+    url = "/swarm-pack/hawking/"
     weight = 16
   [[menu.main]]
-    identifier = "surface-pack-1"
-    parent = "pack-1"
-    name = "Surface"
-    url = "/pack-1/surface/"
+    identifier = "swirl-swarm-pack"
+    parent = "swarm-pack"
+    name = "Swirl"
+    url = "/swarm-pack/swirl/"
     weight = 17
   [[menu.main]]
-    identifier = "swirl-pack-1"
-    parent = "pack-1"
-    name = "Swirl"
-    url = "/pack-1/swirl/"
+    identifier = "globe-swarm-pack"
+    parent = "swarm-pack"
+    name = "Globe"
+    url = "/swarm-pack/globe/"
     weight = 18
   [[menu.main]]
-    identifier = "dots-pack-1"
-    parent = "pack-1"
-    name = "Dots"
-    url = "/pack-1/dots/"
-    weight = 19
-  [[menu.main]]
-    identifier = "heuristics-pack-1"
-    parent = "pack-1"
+    identifier = "heuristics-swarm-pack"
+    parent = "swarm-pack"
     name = "Heuristics"
-    url = "/pack-1/heuristics/"
+    url = "/swarm-pack/heuristics/"
+    weight = 19
+    [[menu.main]]
+    identifier = "net-swarm-pack"
+    parent = "swarm-pack"
+    name = "Net"
+    url = "/swarm-pack/net/"
     weight = 20
+  [[menu.main]]
+    identifier = "physics-swarm-pack"
+    parent = "swarm-pack"
+    name = "Physics"
+    url = "/swarm-pack/physics/"
+    weight = 21
 [[menu.main]]
-  identifier = "pack-2"
-  name = "Pack #2"
+  identifier = "land-pack"
+  name = "land pack"
   url = ""
   weight = 5
   [[menu.main]]
-    identifier = "birds-pack-2"
-    parent = "pack-2"
-    name = "Birds"
-    url = "/pack-2/birds/"
+    identifier = "aurora-land-pack"
+    parent = "land-pack"
+    name = "Aurora"
+    url = "/land-pack/aurora/"
     weight = 1
   [[menu.main]]
-    identifier = "boreal-sky-pack-2"
-    parent = "pack-2"
-    name = "Boreal Sky"
-    url = "/pack-2/boreal-sky/"
+    identifier = "starfield-land-pack"
+    parent = "land-pack"
+    name = "Starfield"
+    url = "/land-pack/starfield/"
     weight = 2
   [[menu.main]]
-    identifier = "brick-tunnel-pack-2"
-    parent = "pack-2"
-    name = "Brick Tunnel"
-    url = "/pack-2/brick-tunnel/"
+    identifier = "boreal-sky-land-pack"
+    parent = "land-pack"
+    name = "Boreal Sky"
+    url = "/land-pack/boreal-sky/"
     weight = 3
   [[menu.main]]
-    identifier = "clouds-pack-2"
-    parent = "pack-2"
+    identifier = "clouds-land-pack"
+    parent = "land-pack"
     name = "Clouds"
-    url = "/pack-2/clouds/"
+    url = "/land-pack/clouds/"
     weight = 4
   [[menu.main]]
-    identifier = "colors-pack-2"
-    parent = "pack-2"
+    identifier = "colors-land-pack"
+    parent = "land-pack"
     name = "Colors"
-    url = "/pack-2/colors/"
+    url = "/land-pack/colors/"
     weight = 5
   [[menu.main]]
-    identifier = "confetti-lines-pack-2"
-    parent = "pack-2"
-    name = "Confetti Lines"
-    url = "/pack-2/confetti-lines/"
-    weight = 6
-  [[menu.main]]
-    identifier = "coronavirus-pack-2"
-    parent = "pack-2"
-    name = "Coronavirus"
-    url = "/pack-2/coronavirus/"
-    weight = 7
-  [[menu.main]]
-    identifier = "glitch-pack-2"
-    parent = "pack-2"
+    identifier = "glitch-land-pack"
+    parent = "land-pack"
     name = "Glitch"
-    url = "/pack-2/glitch/"
+    url = "/land-pack/glitch/"
     weight = 8
   [[menu.main]]
-    identifier = "globe-pack-2"
-    parent = "pack-2"
-    name = "Globe"
-    url = "/pack-2/globe/"
-    weight = 9
-  [[menu.main]]
-    identifier = "hawking-pack-2"
-    parent = "pack-2"
-    name = "Hawking"
-    url = "/pack-2/hawking/"
+    identifier = "liquid-land-pack"
+    parent = "land-pack"
+    name = "Liquid"
+    url = "/land-pack/liquid/"
     weight = 10
   [[menu.main]]
-    identifier = "hills-pack-2"
-    parent = "pack-2"
-    name = "Hills"
-    url = "/pack-2/hills/"
-    weight = 11
-  [[menu.main]]
-    identifier = "landscape-1-pack-2"
-    parent = "pack-2"
-    name = "Landscape 1"
-    url = "/pack-2/landscape"
-    weight = 12
-  [[menu.main]]
-    identifier = "landscape-2-pack-2"
-    parent = "pack-2"
-    name = "Landscape 2"
-    url = "/pack-2/landscape-2/"
-    weight = 13
-  [[menu.main]]
-    identifier = "net-pack-2"
-    parent = "pack-2"
-    name = "Net"
-    url = "/pack-2/net/"
-    weight = 14
-  [[menu.main]]
-    identifier = "physics-pack-2"
-    parent = "pack-2"
-    name = "Physics"
-    url = "/pack-2/physics/"
-    weight = 15
-  [[menu.main]]
-    identifier = "quantum-pack-2"
-    parent = "pack-2"
-    name = "Quantum"
-    url = "/pack-2/quantum/"
-    weight = 16
-  [[menu.main]]
-    identifier = "star-wars-pack-2"
-    parent = "pack-1"
-    name = "Star Wars"
-    url = "/pack-2/star-wars/"
+    identifier = "surface-land-pack"
+    parent = "land-pack"
+    name = "Surface"
+    url = "/land-pack/surface/"
     weight = 17
   [[menu.main]]
-    identifier = "stars-lines-pack-2"
-    parent = "pack-2"
+    identifier = "hills-land-pack"
+    parent = "land-pack"
+    name = "Hills"
+    url = "/land-pack/hills/"
+    weight = 11
+  [[menu.main]]
+    identifier = "landscape-1-land-pack"
+    parent = "land-pack"
+    name = "Landscape 1"
+    url = "/land-pack/landscape"
+    weight = 12
+  [[menu.main]]
+    identifier = "landscape-2-land-pack"
+    parent = "land-pack"
+    name = "Landscape 2"
+    url = "/land-pack/landscape-2/"
+    weight = 13
+  [[menu.main]]
+    identifier = "quantum-land-pack"
+    parent = "land-pack"
+    name = "Quantum"
+    url = "/land-pack/quantum/"
+    weight = 16
+  [[menu.main]]
+    identifier = "star-wars-land-pack"
+    parent = "land-pack"
+    name = "Star Wars"
+    url = "/land-pack/star-wars/"
+    weight = 17
+  [[menu.main]]
+    identifier = "stars-lines-land-pack"
+    parent = "land-pack"
     name = "Stars Lines"
-    url = "/pack-2/stars-lines/"
+    url = "/land-pack/stars-lines/"
     weight = 18
   [[menu.main]]
-    identifier = "topology-pack-2"
-    parent = "pack-2"
+    identifier = "topology-land-pack"
+    parent = "land-pack"
     name = "Topology"
-    url = "/pack-2/topology/"
+    url = "/land-pack/topology/"
     weight = 19
   [[menu.main]]
-    identifier = "triangle-pack-2"
-    parent = "pack-2"
-    name = "Triangle"
-    url = "/pack-2/triangle/"
-    weight = 20
-  [[menu.main]]
-    identifier = "water-droplet-pack-2"
-    parent = "pack-2"
+    identifier = "water-droplet-land-pack"
+    parent = "land-pack"
     name = "Water Droplet"
-    url = "/pack-2/water-droplet/"
+    url = "/land-pack/water-droplet/"
     weight = 21
+  [[menu.main]]
+    identifier = "html5-video-land-pack"
+    parent = "land-pack"
+    name = "HTML5 Video"
+    url = "/land-pack/html5-video/"
+    weight = 22
+  [[menu.main]]
+    identifier = "rain-video-land-pack"
+    parent = "land-pack"
+    name = "Rain Video"
+    url = "/land-pack/rain-video/"
+    weight = 23
+  [[menu.main]]
+    identifier = "winter-land-pack"
+    parent = "land-pack"
+    name = "Winter"
+    url = "/land-pack/winter/"
+    weight = 24
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
