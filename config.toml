@@ -299,7 +299,7 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 
 # Preloader Settings
 [params.preloader]
-  logo = "images/spinner.gif"
+  logo = "/images/spinner.gif"
 
 # Blog Sidebar
 [params.sidebar]
