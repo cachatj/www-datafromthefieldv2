@@ -5,8 +5,8 @@
 header:
   enable: true
   logo: "/images/data_from_the_field_logo.png"
-  widthLogo: 400
-  heightLogo: 300
+  widthLogo: 500
+  heightLogo: 400
   title: "Data From The Field"
   description: "geospatial data science, machine learning engineering from the field, usually off-road"
   countdown: ""

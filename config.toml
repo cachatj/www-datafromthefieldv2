@@ -282,8 +282,7 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
-  #url = "blog/"
-  url = ""
+  url = "blog/"
   weight = 4
 
 # Blog Settings
