@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Coronavirus – Data from the Field</title>
+
+  <!-- Meta -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="author" content="jcachat" />
+  
+  
+  
+  
+  <meta name="keywords" content="geospatial data science, machine learning, gps, movement pattern, trajectory profiling, GPS telemetry, offroad, remote, connectivity, starlink, onboard sensors, vehicle technology">
+  
+  
+  <meta name="description" content="Data from the Field - geospatial data science, machine learning engineering from the field, usually off-road">
+  <meta name="generator" content="Hugo 0.140.1">
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rajdhani:500' rel='stylesheet' type='text/css'>
+
+  <!-- Plugins Stylesheets -->
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/plugins/fonts/css/all.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slicknav/slicknav.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/plugins/aos/aos.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/plugins/animate/animate.min.css" />
+
+  <!-- App Stylesheets -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/app.min.css" />
+
+  <!-- jQuery Core -->
+  <script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon" />
+
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHRTNHNRLN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PHRTNHNRLN');
+  </script>
+  
+
+  </head>
+
+
+<body class="page coming-soon ">
+
+    <!-- Preloader -->
+    <div class="page-loader">
+	
+	<div class="loader-icon"><img src="http://localhost:1313/images/spinner.gif" alt="logo" /></div>
+</div>
+
+    <!-- Header -->
+    <header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="header-container">
+
+          <div class="logo"><h3><a href="http://localhost:1313/">Data from the Field</a></h3></div>
+
+          <div class="header-inner-box">
+          
+            <!-- navigation -->
+            <div class="menu-container">
+                <!-- navigation list -->
+                  <ul>
+                    
+                    
+                    
+                    
+                    
+                    <li class="menu-item">
+                      <a href="http://localhost:1313/">About</a>
+                      
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="menu-item has-children">
+                      <a href="http://localhost:1313/">Swarm Pack</a>
+                      
+                      <ul class="sub-menu">
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/geometric/">Geometric</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/alien/">Alien</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/birds/">Birds</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/coalesce/">Coalesce</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/connections/">Connections</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/constellation/">Constellation</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/dots/">Dots</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/gravity/">Gravity</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/particles/">Particles</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/magneto/">Magneto</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/mosaic/">Mosaic</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/orbit/">Orbit</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/pipeline/">Pipeline</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/low-poly/">Low poly</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/shift/">Shift</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/stardust/">Stardust</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/hawking/">Hawking</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/swirl/">Swirl</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/globe/">Globe</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/heuristics/">Heuristics</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/net/">Net</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/swarm-pack/physics/">Physics</a></li>
+                        
+                      </ul>
+                      
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="menu-item has-children">
+                      <a href="http://localhost:1313/">Land Pack</a>
+                      
+                      <ul class="sub-menu">
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/aurora/">Aurora</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/starfield/">Starfield</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/boreal-sky/">Boreal Sky</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/clouds/">Clouds</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/colors/">Colors</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/glitch/">Glitch</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/liquid/">Liquid</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/surface/">Surface</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/hills/">Hills</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/landscape">Landscape 1</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/landscape-2/">Landscape 2</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/quantum/">Quantum</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/star-wars/">Star Wars</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/stars-lines/">Stars Lines</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/topology/">Topology</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/water-droplet/">Water Droplet</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/html5-video/">HTML5 Video</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/rain-video/">Rain Video</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/winter/">Winter</a></li>
+                        
+                        
+                        
+                        <li class="menu-item"><a href="/land-pack/youtube-constellation/">YouTube Constellation</a></li>
+                        
+                      </ul>
+                      
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="menu-item">
+                      <a href="http://localhost:1313/">Blog</a>
+                      
+                    </li>
+                    
+                  </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  </header>
+
+
+    <!-- Wrapper -->
+		<div class="wrapper">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- Section Started Header Coming Soon -->
+<div class="header-section">
+
+        <div class="logo">
+            <img src="http://localhost:1313/images/data_from_the_field_logo.png" width="400" height="300" alt="logo" />
+        </div>
+
+        <h1>Data From The Field</h1>
+
+        <p>geospatial data science, machine learning engineering from the field, usually off-road</p>
+
+        
+
+        
+        <div class="mouse">
+            <a href="#services">
+                <i class="fa fa-chevron-down"></i>
+            </a>
+        </div>
+        
+
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+    
+     
+    
+       
+
+     
+
+     
+
+    
+
+    
+    
+
+        <!-- CORONAVIRUS 3D BACKGROUND EFFECT -->
+
+        <div id="effect-box">
+            <div class="virus"></div>
+        </div>
+
+        <script id="vertexShader" type="x-shader/x-vertex">
+            uniform float p;
+            varying float intensity;
+            void main()
+            {
+                vec3 vNormal = normalize( normalMatrix * normal );
+                intensity = pow(1.0 - abs(dot(vNormal, vec3(0, 0, 1))), p);
+                gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+            }
+        </script>
+
+        
+        <script id="fragmentShader" type="x-shader/x-vertex">
+                uniform vec3 glowColor;
+                varying float intensity;
+                void main()
+                {
+                    vec3 glow = glowColor * intensity;
+                    gl_FragColor = vec4( glow, 1.0 );
+                }
+        </script>
+
+
+        <script type="module">
+
+            import * as THREE from "http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/three.module.js";
+            import Stats from "http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/stats.module.js";
+            import { GUI } from "http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/dat.gui.module.js";
+            import { OrbitControls } from "http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/OrbitControls.js";
+            import { STLLoader } from "http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/STLLoader.js";
+            import { BokehShader, BokehDepthShader } from "http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/BokehShader2.js";
+
+            var spread = 60;
+            var particleMax = 400;
+            var bitMax =  400 ;
+            var particles = [];
+            var bits = [];
+
+            var container, camera, scene, renderer, materialDepth, controls;
+
+            var windowHalfX = window.innerWidth / 2;
+            var windowHalfY = window.innerHeight / 2;
+
+            var postprocessing = { enabled: true };
+            var shaderSettings = {
+              rings: 4,
+              samples: 7
+            };
+
+            let effectController = {
+              enabled: true,
+              jsDepthCalculation: false,
+              shaderFocus: false,
+
+              fstop: 20.428,
+              maxblur:  3 ,
+
+              showFocus: false,
+              focalDepth: 15,
+              manualdof: false,
+              vignetting: true,
+              depthblur: true,
+
+              threshold: 0.225,
+              gain: 2.0,
+              bias: 0.0,
+              fringe: 0.0,
+
+              focalLength: 30,
+              noise: true,
+              pentagon: true,
+
+              dithering: 0.0001
+            };
+
+            init();
+            animate();
+
+            function getRnd(min, max) {
+              return Math.random() * (max - min + 1)  + min;
+            }
+
+            function init() {
+              container = document.querySelector(".virus")
+            
+
+              scene = new THREE.Scene();
+              scene.background = new THREE.Color("#102905"); 
+
+              renderer = new THREE.WebGLRenderer();
+              renderer.setPixelRatio( window.devicePixelRatio );
+              renderer.setSize( window.innerWidth, window.innerHeight );
+              renderer.autoClear = false;
+              container.appendChild( renderer.domElement );
+
+              camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, spread - 5 );
+              
+              camera.position.x = 0;
+              camera.position.z = 0;
+              camera.position.y = 0;
+              camera.lookAt(scene.position);
+              scene.add( camera );
+
+              var depthShader = BokehDepthShader;
+              materialDepth = new THREE.ShaderMaterial( {
+                uniforms: depthShader.uniforms,
+                vertexShader: depthShader.vertexShader,
+                fragmentShader: depthShader.fragmentShader
+              } );
+              materialDepth.uniforms[ "mNear" ].value = camera.near;
+              materialDepth.uniforms[ "mFar" ].value = camera.far;
+              var XRayVirusMaterial = new THREE.ShaderMaterial({
+                uniforms: {
+                  p: { type: "f", value: 2 },
+                  glowColor: { type: "c", value: new THREE.Color( 5569599 ) },
+                },
+                vertexShader: document.getElementById("vertexShader").text,
+                fragmentShader: document.getElementById("fragmentShader").text,
+                side: THREE.DoubleSide,
+                blending: THREE.AdditiveBlending,
+                transparent: true,
+                depthWrite: false 
+              });
+
+              var XRayBitMaterial = new THREE.ShaderMaterial({
+                uniforms: {
+                  p: { type: "f", value: 2 },
+                  glowColor: { type: "c", value: new THREE.Color( 5569599 ) },
+                },
+                vertexShader: document.getElementById("vertexShader").text,
+                fragmentShader: document.getElementById("fragmentShader").text,
+                side: THREE.DoubleSide,
+                blending: THREE.AdditiveBlending,
+                transparent: true,
+                depthWrite: false 
+              });
+
+              initPostprocessing();
+              for ( var e in effectController ) {
+                if ( e in postprocessing.bokeh_uniforms ) {
+                  postprocessing.bokeh_uniforms[ e ].value = effectController[ e ];
+                }
+              }
+              postprocessing.enabled = effectController.enabled;
+              postprocessing.bokeh_uniforms[ "znear" ].value = camera.near;
+              postprocessing.bokeh_uniforms[ "zfar" ].value = camera.far;
+              camera.setFocalLength( effectController.focalLength );
+
+              var loader = new STLLoader();
+              loader.load("http:\/\/localhost:1313\/plugins\/effects\/coronavirus\/virus2.stl", function(geometry) {
+                for(let i=0; i < particleMax; i++){
+
+                  let mesh = new THREE.Mesh(geometry, XRayVirusMaterial);
+                  mesh.scale.set(.08,.08,.08);
+                  let x = getRnd(-spread, spread);
+                  let y = getRnd(-spread, spread);
+                  let z = getRnd(-spread, spread);
+                  let rx = getRnd(-Math.PI, Math.PI);
+                  let ry = getRnd(-Math.PI, Math.PI);
+                  let rz = getRnd(-Math.PI, Math.PI);
+
+                  let rSpeed = 2;
+                  let rxv = getRnd(-rSpeed, rSpeed);
+                  let ryv = getRnd(-rSpeed, rSpeed);
+                  let rzv = getRnd(-rSpeed, rSpeed);
+                  mesh.position.set(x, y, z);
+                  mesh.rotation.set(rx, ry, rz);
+
+                  particles.push({
+                    mesh: mesh,  
+                    x: x, y: y, z: z, 
+                    rx: rx, ry: ry, rz: rz, 
+                    rxv: rxv, ryv: ryv, rzv: rzv
+                  });
+                  scene.add(mesh);
+
+                }
+
+                let bitGeometry = new THREE.SphereGeometry( .3, 8, 8);
+                for(let i=0; i < bitMax; i++){
+                  let sphere = new THREE.Mesh( bitGeometry, XRayBitMaterial );
+                  
+                  let x = getRnd(-spread, spread);
+                  let y = getRnd(-spread, spread);
+                  let z = getRnd(-spread, spread);
+                  let rx = getRnd(-Math.PI, Math.PI);
+                  let ry = getRnd(-Math.PI, Math.PI);
+                  let rz = getRnd(-Math.PI, Math.PI);
+                  let rSpeed = 1;
+                  let rxv = getRnd(rSpeed, rSpeed);
+                  let ryv = getRnd(rSpeed, rSpeed);
+                  let rzv = getRnd(rSpeed, rSpeed);
+                  sphere.position.set(x, y, z);
+                  sphere.rotation.set(rx, ry, rz);
+                  bits.push({mesh: sphere, 
+                             x: x, y: y, z: z, 
+                             rx: rx, ry: ry, rz: rz, 
+                             rxv: rxv, ryv: ryv, rzv: rzv});
+                  scene.add( sphere );
+                }
+
+              });
+
+              window.addEventListener( "resize", onWindowResize, false );
+            }
+
+            function onWindowResize() {
+              camera.aspect = window.innerWidth / window.innerHeight;
+              camera.updateProjectionMatrix();
+              windowHalfX = window.innerWidth / 2;
+              windowHalfY = window.innerHeight / 2;
+              postprocessing.rtTextureDepth.setSize( window.innerWidth, window.innerHeight );
+              postprocessing.rtTextureColor.setSize( window.innerWidth, window.innerHeight );
+              postprocessing.bokeh_uniforms[ "textureWidth" ].value = window.innerWidth;
+              postprocessing.bokeh_uniforms[ "textureHeight" ].value = window.innerHeight;
+              renderer.setSize( window.innerWidth, window.innerHeight );
+            }
+
+            function initPostprocessing() {
+              postprocessing.scene = new THREE.Scene();
+              postprocessing.camera = new THREE.OrthographicCamera( window.innerWidth / - 2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / - 2, - 10000, 10000 );
+              postprocessing.camera.position.z = 100;
+              postprocessing.scene.add( postprocessing.camera );
+              var pars = { minFilter: THREE.LinearFilter, magFilter: THREE.LinearFilter, format: THREE.RGBFormat };
+              postprocessing.rtTextureDepth = new THREE.WebGLRenderTarget( window.innerWidth, window.innerHeight, pars );
+              postprocessing.rtTextureColor = new THREE.WebGLRenderTarget( window.innerWidth, window.innerHeight, pars );
+              var bokeh_shader = BokehShader;
+              postprocessing.bokeh_uniforms = THREE.UniformsUtils.clone( bokeh_shader.uniforms );
+              postprocessing.bokeh_uniforms[ "tColor" ].value = postprocessing.rtTextureColor.texture;
+              postprocessing.bokeh_uniforms[ "tDepth" ].value = postprocessing.rtTextureDepth.texture;
+              postprocessing.bokeh_uniforms[ "textureWidth" ].value = window.innerWidth;
+              postprocessing.bokeh_uniforms[ "textureHeight" ].value = window.innerHeight;
+              postprocessing.materialBokeh = new THREE.ShaderMaterial( {
+                uniforms: postprocessing.bokeh_uniforms,
+                vertexShader: bokeh_shader.vertexShader,
+                fragmentShader: bokeh_shader.fragmentShader,
+                defines: {
+                  RINGS: shaderSettings.rings,
+                  SAMPLES: shaderSettings.samples
+                }
+              } );
+              postprocessing.quad = new THREE.Mesh( new THREE.PlaneBufferGeometry( window.innerWidth, window.innerHeight ), postprocessing.materialBokeh );
+              postprocessing.quad.position.z = - 500;
+              postprocessing.scene.add( postprocessing.quad );
+            }
+
+            function shaderUpdate() {
+              postprocessing.materialBokeh.defines.RINGS = shaderSettings.rings;
+              postprocessing.materialBokeh.defines.SAMPLES = shaderSettings.samples;
+              postprocessing.materialBokeh.needsUpdate = true;
+            }
+
+            function animate() {
+              requestAnimationFrame( animate, renderer.domElement );
+              virusUpdate();
+              bitsUpdate();
+              camera.rotation.x += 0.0033187;
+              camera.rotation.y += 0.0052349;
+              camera.rotation.z += 0.00323;
+
+              render();
+            }
+
+            function virusUpdate(){
+              for(let i = 0; i < particles.length; i++) {
+                let p = particles[i];
+                
+                p.x += 0.04;
+                p.z += 0.0011;
+                if(p.x > spread) p.x = -spread;
+                if(p.z > spread) p.z = -spread;
+                p.mesh.position.x = p.x;
+                p.mesh.position.z = p.z;
+
+                p.rx += (p.rxv / 100);
+                p.ry += (p.ryv / 100);
+                p.rz += (p.rzv / 100);
+                p.mesh.rotation.set(p.rx, p.ry, p.rz);
+              }
+            }
+
+            function bitsUpdate(){
+              for(let i = 0; i < bits.length; i++) {
+                let p = bits[i];
+                p.x += 0.04;
+                p.z += 0.0011;
+                if(p.x > spread) p.x = -spread;
+                if(p.z > spread) p.z = -spread;
+                p.mesh.position.x = p.x;
+                p.mesh.position.z = p.z;
+
+                p.rx += (p.rxv / 100);
+                p.ry += (p.ryv / 100);
+                p.rz += (p.rzv / 100);
+                p.mesh.rotation.set(p.rx, p.ry, p.rz);
+              }
+            }
+
+            function linearize( depth ) {
+              var zfar = camera.far;
+              var znear = camera.near;
+              return - zfar * znear / ( depth * ( zfar - znear ) - zfar );
+            }
+
+            function smoothstep( near, far, depth ) {
+              var x = saturate( ( depth - near ) / ( far - near ) );
+              return x * x * ( 3 - 2 * x );
+            }
+
+            function saturate( x ) {
+              return Math.max( 0, Math.min( 1, x ) );
+            }
+
+            function render() {
+
+              if ( postprocessing.enabled ) {
+                renderer.clear();
+                
+                renderer.setRenderTarget( postprocessing.rtTextureColor );
+                renderer.clear();
+                renderer.render( scene, camera );
+                
+                scene.overrideMaterial = materialDepth;
+                renderer.setRenderTarget( postprocessing.rtTextureDepth );
+                renderer.clear();
+                renderer.render( scene, camera );
+                scene.overrideMaterial = null;
+                
+                renderer.setRenderTarget( null );
+                renderer.render( postprocessing.scene, postprocessing.camera );
+              } else {
+                scene.overrideMaterial = null;
+                renderer.setRenderTarget( null );
+                renderer.clear();
+                renderer.render( scene, camera );
+              }
+            }
+
+        </script>
+
+  
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+
+</div>
+
+
+
+
+
+
+
+  
+
+
+<!-- Section Services -->
+<section class="section-services" id="services">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="row">
+          
+          
+          
+          <div class="col-md-4">
+            <div class="services-box" data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true">
+              <div class="icon">
+                <i aria-hidden="true" class="fas fa-globe"></i>
+              </div>
+              <h2>GPS Movement Pattern profiling &amp; Trajectory Data Mining</h2>
+              <p>geospatial data science, machine learning engineering from the field, usually off-road.</p>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-4">
+            <div class="services-box" data-aos="custom-fade-up" data-aos-delay="200" data-aos-once="true">
+              <div class="icon">
+                <i aria-hidden="true" class="fas fa-motorcycle"></i>
+              </div>
+              <h2>Automotive &amp; IoT/Wireless Technology</h2>
+              <p>onboard compute & sensors, Telemetrics & ML/AI integration.</p>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-4">
+            <div class="services-box" data-aos="custom-fade-up" data-aos-delay="300" data-aos-once="true">
+              <div class="icon">
+                <i aria-hidden="true" class="fas fa-wifi"></i>
+              </div>
+              <h2>Offroad &amp; Remote Connectivity</h2>
+              <p>starlink, wifi acreage & entertainment.</p>
+            </div>
+          </div>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- Section Subscribe -->
+<section class="section-subscribe" style="background-image: url(http://localhost:1313/images/rzr_parallax_b&amp;w.jpeg);"  id="subscribe">
+    <div class="container">
+        <div class="row">
+          <h2 data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true"><i aria-hidden="true" class="fas fa-paper-plane"></i>Subscribe to our Feed</h2>
+          <form id="ajaxChimp"  data-aos="custom-fade-up" data-aos-delay="200" data-aos-once="true">
+            <input id="mc-email" type="text" placeholder="">
+            <button type="submit">Submit</button>
+            <label for="mc-email"></label>
+        </form>
+        </div>
+      </div>
+      <script>
+                    
+        var mailChimpURL = "https:\/\/sungrownzero.us17.list-manage.com\/subscribe\/post?u=aa1a94da2206e0f63816dffac\u0026amp;id=93876a5ec7\u0026amp;f_id=006feae3f0"
+
+    </script>
+</section>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- Section Contact -->
+<section class="section-contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <h2 data-aos="custom-fade-up" data-aos-delay="100" data-aos-once="true">Contact us</h2>
+      <div class="col-md-12">
+        <template id="contact-success">
+          <div class="success-box">
+            <i class="fa fa-check"></i> Thank you for contacting us. You will hear from us soon.
+        </div>
+        </template>
+        <template id="contact-error">
+          <div class="error-box">
+            <i class="fa fa-check"></i> We are facing an issue submitting the contact form. Please try again later.
+          </div>
+        </template>
+          <form id="contact-form"data-dynamic-form data-success="#contact-success" data-error="#contact-error" action="https://formspree.io/f/xgvvrdlr" method="post">
+              <div data-aos="custom-fade-up" data-aos-delay="200" data-aos-once="true"><input type="text" name="name" id="name" placeholder="Name" /></div>
+              <div data-aos="custom-fade-up" data-aos-delay="300" data-aos-once="true"><input type="email" name="email" id="email" placeholder="Email" /></div>
+              <div data-aos="custom-fade-up" data-aos-delay="400" data-aos-once="true"><textarea name="msg" id="msg" placeholder="Message"></textarea></div>
+              <div data-aos="custom-fade-up" data-aos-delay="400" data-aos-once="true"><input type="submit" name="submit" id="submit" value="Send message" /></div>
+              <div data-aos="custom-fade-up" data-aos-delay="600" data-aos-once="true" class="g-recaptcha" data-sitekey="6LfhC7UqAAAAANndX6S1oGhWSLh3drD8Mf-53nMP"></div> 
+          </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- Section Google Map -->
+<section class="section-map" id="map">
+
+    <div id="google-container"></div>
+    <div id="zoom-in"></div>
+    <div id="zoom-out"></div>
+
+                <script>
+                    
+                    var colorMap = "#2d313f";
+                    var iconLocation = "http:\/\/localhost:1313\/images\/icon-location.png"
+                    var titleIconLocation = "Athens, Ohio"
+                    var latitudeG = "39.433288";
+                    var longitudeG = "-82.54298";
+                    var mapZoomG =  7 ;
+        
+                </script>
+
+<div class="contact-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    
+                      <div class="col-md-4 contact-box">
+                        <i aria-hidden="true" class="fas fa-location-dot"></i>Midwest, USA
+                      </div>
+                    
+                      <div class="col-md-4 contact-box">
+                        <i aria-hidden="true" class="fas fa-phone"></i>614-982-0521
+                      </div>
+                    
+                      <div class="col-md-4 contact-box">
+                        <i aria-hidden="true" class="fas fa-paper-plane"></i>hello@datafromthefield.com
+                      </div>
+                    
+                </div>       
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+    
+
+
+
+
+<!-- Footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			
+			<a href="#top" class="up-btn"><i class='fa-solid fa-chevron-up'></i></a>
+			
+			<div class="footer-content">
+
+				<ul class="social-icon">
+					
+					<li>
+						<a href="https://www.youtube.com/@jcachat" target="_blank" title="YouTube">
+							<i aria-hidden="true" class="fa-brands fa-youtube"></i>
+						</a>
+					</li>	
+					
+					<li>
+						<a href="https://www.x.com/jcachat" target="_blank" title="Twitter">
+							<i aria-hidden="true" class="fa-brands fa-x-twitter"></i>
+						</a>
+					</li>	
+					
+					<li>
+						<a href="https://linkedin.com/in/jcachat" target="_blank" title="LinkedIn">
+							<i aria-hidden="true" class="fa-brands fa-linkedin"></i>
+						</a>
+					</li>	
+					
+					<li>
+						<a href="https://www.instagram.com/jcachat" target="_blank" title="Instagram">
+							<i aria-hidden="true" class="fa-brands fa-instagram"></i>
+						</a>
+					</li>	
+					
+				</ul>
+
+				<div class="copyright">Data from the Field © 2025. Design & Coded by <a href='https://jcachat.com' target='_blank'> Jonathan Cachat / CCV Research, LLC.</a></div>
+
+			</div>
+
+		</div>
+	</div>	
+</footer>
+
+
+
+  
+
+  <!-- Scripts -->
+  <script src="http://localhost:1313/plugins/countdown/countdown.min.js"></script>
+<script src="http://localhost:1313/plugins/ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="http://localhost:1313/plugins/gsap/tween-max.min.js"></script>
+
+
+<script src="http://localhost:1313/plugins/validate/jquery.validate.min.js"></script>
+<script src="http://localhost:1313/plugins/slicknav/jquery.slicknav.min.js"></script>
+<script src="http://localhost:1313/plugins/jarallax/jarallax.min.js"></script>
+<script src="http://localhost:1313/plugins/sharer/sharer.min.js"></script>
+<script src="http://localhost:1313/plugins/aos/aos.min.js"></script>
+
+
+<script src="http://localhost:1313/plugins/fuse/fuse.min.js"></script>
+<script src="http://localhost:1313/plugins/mark/mark.min.js"></script>
+<script src="http://localhost:1313/plugins/search/search.min.js"></script>
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK6jPV8u2yF2_1fCs0ZMQ92Rqcfr0MeUc"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://localhost:1313/js/app.min.js"></script>
+
+
+</body>
+
+</html>

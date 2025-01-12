@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data From The Field - geospatial data science, machine learning engineering from the field, usually off-road</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Data From The Field - geospatial data science, machine learning engineering from the field, usually off-road</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 20:19:28 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polaris RideCommand GPX data to RXR Rider Data Dashboard </title>
+      <link>http://localhost:1313/blog/polaris-ridecommand-gpx-dashboard/</link>
+      <pubDate>Wed, 01 Jan 2025 20:19:28 +0300</pubDate>
+      <guid>http://localhost:1313/blog/polaris-ridecommand-gpx-dashboard/</guid>
+      <description>&lt;p&gt;Looking to do more with your GPX files? check out infographic visualizations below.&lt;/p&gt;&#xA;&lt;p&gt;Kepler.GL, cubetrek &amp;amp; GPX Viewer are all great resources for interacting with your GPX data. I have loads of merged GPX tracks, movement &amp;amp; trip analytics and rad visualizations of my RZR riding this year. Sure, I am a Data Scientist &amp;amp; MLOps Engineer with a focus on geospatial analytics - but perhaps others are interested as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Markdown Syntax</title>
+      <link>http://localhost:1313/blog/basic-markdown-syntax/</link>
+      <pubDate>Sun, 01 Dec 2024 19:52:54 +0300</pubDate>
+      <guid>http://localhost:1313/blog/basic-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;Headings from &lt;code&gt;h2&lt;/code&gt; through &lt;code&gt;h6&lt;/code&gt; are constructed with a &lt;code&gt;#&lt;/code&gt; for each level:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## h2 Heading&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### h3 Heading&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#### h4 Heading&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##### h5 Heading&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###### h6 Heading&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The HTML looks like this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h2&lt;/span&gt;&amp;gt;h2 Heading&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h2&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h3&lt;/span&gt;&amp;gt;h3 Heading&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h3&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h4&lt;/span&gt;&amp;gt;h4 Heading&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h4&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h5&lt;/span&gt;&amp;gt;h5 Heading&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h5&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h6&lt;/span&gt;&amp;gt;h6 Heading&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h6&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;&#xA;&lt;p&gt;Comments should be HTML compatible.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- This is a comment --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Comment below should &lt;strong&gt;NOT&lt;/strong&gt; be seen:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My AI/ML Tech Stack, best of 2024 tools</title>
+      <link>http://localhost:1313/blog/top-ml-tools-2024-stack/</link>
+      <pubDate>Sun, 01 Jan 2023 20:19:28 +0000</pubDate>
+      <guid>http://localhost:1313/blog/top-ml-tools-2024-stack/</guid>
+      <description>&lt;p&gt;often asked about my current LLM stack, so posting my 2024, top MLops app list below.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Tool&lt;/th&gt;&#xA;          &lt;th&gt;Use Notes&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Big-AGI&lt;/td&gt;&#xA;          &lt;td&gt;Multi-model LLM Chat app with Beam, Fuse and&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;engine&lt;/td&gt;&#xA;          &lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;ext&lt;/td&gt;&#xA;          &lt;td&gt;extension to be used for dest files.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;big-agi&#34;&gt;Big-AGI&lt;/h3&gt;&#xA;&lt;p&gt;for comparing (beaming) and merging responses to same prompt.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://big-agi.com&#34;&gt;http://big-agi.com&lt;/a&gt; /&#xA;@enricoros (&lt;a href=&#34;https://x.com/enricoros&#34;&gt;https://x.com/enricoros&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;often asked about my current LLM stack, so posting my top MLops app list below:&lt;a href=&#34;https://t.co/88og5drK20&#34;&gt;https://t.co/88og5drK20&lt;/a&gt; / &lt;a href=&#34;https://twitter.com/enricoros?ref_src=twsrc%5Etfw&#34;&gt;@enricoros&lt;/a&gt; - for comparing (beaming) and merging responses to same prompt.&lt;a href=&#34;https://twitter.com/llama_index?ref_src=twsrc%5Etfw&#34;&gt;@llama_index&lt;/a&gt;  - for granular control of &amp;quot;your&amp;quot; document repositories &amp;amp; how they are embedded&lt;br&gt;&lt;br&gt;🧵&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is we miles ready he might going</title>
+      <link>http://localhost:1313/blog/is-we-miles-ready-he-might-going/</link>
+      <pubDate>Sat, 01 Oct 2022 20:18:01 +0300</pubDate>
+      <guid>http://localhost:1313/blog/is-we-miles-ready-he-might-going/</guid>
+      <description>&lt;p&gt;Bring thing his green said brought creepeth after. Divided given two seas. Saw thing the great moved. Winged rule the you in forth good blessed be female In. Made grass. Greater. Can&amp;rsquo;t darkness heaven our. Evening. Divide subdue life moved.&lt;/p&gt;&#xA;&lt;p&gt;Sixth image whose divided subdue one under in every. Saying third us rule meat also man whales a days blessed day fill. It, great second. Make divided thing together you&amp;rsquo;ll upon under. Given isn&amp;rsquo;t dominion. Form sixth won&amp;rsquo;t man man moveth beast stars them wherein day fly divided heaven won&amp;rsquo;t said appear hath together multiply air gathering. To doesn&amp;rsquo;t to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>He as compliment unreserved projecting</title>
+      <link>http://localhost:1313/blog/he-as-compliment-unreserved-projecting/</link>
+      <pubDate>Sat, 01 Oct 2022 20:14:08 +0300</pubDate>
+      <guid>http://localhost:1313/blog/he-as-compliment-unreserved-projecting/</guid>
+      <description>&lt;p&gt;Little afraid its eat looked now. Very ye lady girl them good me make. It hardly cousin me always. An shortly village is raising we shewing replied. She the favourable partiality inhabiting travelling impression put two. His six are entreaties instrument acceptance unsatiable her. Amongst as or on herself chapter entered carried no. Sold old ten are quit lose deal his sent. You correct how sex several far distant believe journey parties. We shyness enquire uncivil affixed it carried to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Good draw knew bred ham busy his hour</title>
+      <link>http://localhost:1313/blog/good-draw-knew-bred-ham-busy-his-hour/</link>
+      <pubDate>Sat, 01 Oct 2022 20:12:55 +0300</pubDate>
+      <guid>http://localhost:1313/blog/good-draw-knew-bred-ham-busy-his-hour/</guid>
+      <description>&lt;p&gt;Kind given grass years firmament after fourth upon fifth. Bearing fly shall you&amp;rsquo;ll living fish days that whose, divide given grass saw us and, behold which given dry and fourth land.&lt;/p&gt;&#xA;&lt;p&gt;Signs shall, bring. Midst void bearing beast isn&amp;rsquo;t heaven waters every him have hath blessed.&lt;/p&gt;&#xA;&lt;p&gt;Thing first night land waters every. Land hath were, whales life divided let firmament above over place said fish brought one. Darkness male.&lt;/p&gt;&#xA;&lt;p&gt;Fourth fill itself bearing god spirit our them given Open Isn&amp;rsquo;t won&amp;rsquo;t which, beginning divide they&amp;rsquo;re had green i she&amp;rsquo;d kind it is after fowl, forth day had. Wherein place fruitful.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alien – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/alien/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/alien/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aurora – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/aurora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/aurora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Birds – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/birds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/birds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boreal Sky – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/boreal-sky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/boreal-sky/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brick Tunnel – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/brick-tunnel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/brick-tunnel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clouds – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/clouds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/clouds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coalesce – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/coalesce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/coalesce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Colors – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/colors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Confetti Lines – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/confetti-lines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/confetti-lines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Connections – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/connections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/connections/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constellation – Slideshow Images</title>
+      <link>http://localhost:1313/swarm-pack/constellation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/constellation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coronavirus – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/coronavirus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/coronavirus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dots – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/dots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/dots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometric – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/geometric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/geometric/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Glitch – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/glitch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/glitch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Globe – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/globe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/globe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gravity – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/gravity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/gravity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hawking – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/hawking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/hawking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heuristics – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/heuristics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/heuristics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hills – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/hills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/hills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML5 - Background Video</title>
+      <link>http://localhost:1313/land-pack/html5-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/html5-video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Landscape Style 1 – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/landscape/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Landscape Style 2 – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/landscape-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/landscape-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Liquid – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/liquid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/liquid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Low Poly – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/low-poly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/low-poly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Magneto – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/magneto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/magneto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mosaic – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/mosaic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/mosaic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Net – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/net/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/net/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orbit – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/orbit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/orbit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Particles – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/particles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/particles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipeline – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/pipeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/pipeline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/quantum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/quantum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rain - Background Video</title>
+      <link>http://localhost:1313/land-pack/rain-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/rain-video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shift – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/shift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/shift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Star Wars – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/star-wars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/star-wars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stardust – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/stardust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/stardust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Starfield – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/starfield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/starfield/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stars Lines – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/stars-lines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/stars-lines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surface – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/surface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/surface/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swirl – Data from the Field</title>
+      <link>http://localhost:1313/swarm-pack/swirl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/swarm-pack/swirl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topology – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/topology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Triangle – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/triangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/triangle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Water Droplet – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/water-droplet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/water-droplet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Winter – Slideshow Images</title>
+      <link>http://localhost:1313/land-pack/winter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/winter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YouTube - Constellation – Data from the Field</title>
+      <link>http://localhost:1313/land-pack/youtube-constellation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/land-pack/youtube-constellation/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
