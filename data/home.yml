@@ -30,7 +30,7 @@ services:
 
 ### Subscribe [ subscribeSection ]
 subscribe:
-  enable: false
+  enable: true
   # Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
   mailChimpURL: "https://stevedogs.us9.list-manage.com/subscribe/post?u=df0aa2ea10f32337b29b342d4&id=41ddc569b4"
   parallax: "/images/rzr_parallax_b&w.jpeg"
