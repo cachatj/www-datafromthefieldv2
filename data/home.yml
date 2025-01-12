@@ -32,7 +32,7 @@ services:
 subscribe:
   enable: true
   # Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-  mailChimpURL: "https://stevedogs.us9.list-manage.com/subscribe/post?u=df0aa2ea10f32337b29b342d4&id=41ddc569b4"
+  mailChimpURL: "https://sungrownzero.us17.list-manage.com/subscribe/post?u=aa1a94da2206e0f63816dffac&amp;id=93876a5ec7&amp;f_id=006feae3f0"
   parallax: "/images/rzr_parallax_b&w.jpeg"
   icon: "fas fa-paper-plane"
   title: "Subscribe to our Feed"
@@ -41,8 +41,8 @@ subscribe:
 contact:
   enable: true
   title: "Contact us"
-  reCAPTCHAKey: "6LfUh3AqAAAAAEaGIfPAUOjf2VrD1IblhxTPJxAB" #YOUR reCAPTCHA v2 key
-  formspreeFormID: "xldejepk" #YOUR FORMSPREE FORM ID
+  reCAPTCHAKey: "6Ld3C7UqAAAAAC-4S_1JB4xGc6S-UaI8QYhZi1J9" 
+  formspreeFormID: "xgvvrdlr" 
 
 ### Map [ mapSection ]
 map:
