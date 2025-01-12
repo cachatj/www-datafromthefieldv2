@@ -1,6 +1,6 @@
 # General Settings
 title = "Data From The Field - geospatial data science, machine learning engineering from the field, usually off-road"
-baseURL = "datafromthefield.com" #YOUR SITE URL
+baseURL = "https://www.datafromthefield.com/"
 languageCode = "en-us"
 theme = "mountain"
 resourceDir = "resources"
@@ -284,8 +284,7 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
   name = "Blog"
   #url = "blog/"
   url = ""
-  weight = 6
-
+  weight = 4
 
 # Blog Settings
 [params]

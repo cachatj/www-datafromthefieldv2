@@ -16,21 +16,21 @@ header:
 services:
   enable: true
   items:
-    - title: "gps movement pattern & trajectory profiling"
+    - title: "GPS Movement Pattern profiling & Trajectory Data Mining"
       icon: "fas fa-globe"
       text: "geospatial data science, machine learning engineering from the field, usually off-road."
 
-    - title: "auto & vehicle technology"
+    - title: "Automotive & IoT/Wireless Technology"
       icon: "fas fa-motorcycle"
-      text: "auto & vehicle technology - onboard compute & sensors, telemetrics & ml/ai integration."
+      text: "onboard compute & sensors, Telemetrics & ML/AI integration."
 
-    - title: "offroad & remote connectivity"
+    - title: "Offroad & Remote Connectivity"
       icon: "fas fa-wifi"
       text: "starlink, wifi acreage & entertainment."
 
 ### Subscribe [ subscribeSection ]
 subscribe:
-  enable: true
+  enable: false
   # Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
   mailChimpURL: "https://stevedogs.us9.list-manage.com/subscribe/post?u=df0aa2ea10f32337b29b342d4&id=41ddc569b4"
   parallax: "/images/rzr_parallax_b&w.jpeg"

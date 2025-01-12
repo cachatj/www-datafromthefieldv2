@@ -27,7 +27,7 @@ slideshowImages:
 # Background effect
 constellationEffect: 
   enable: true
-  lineColor: "rgba(255,255,255,0.3)"
+  lineColor: "rgba(255, 255, 255, 0.64)"
   ### Short RGBA color 
   circleColor: "156,217,249,"
 ---
