@@ -41,7 +41,7 @@ subscribe:
 contact:
   enable: true
   title: "Contact us"
-  reCAPTCHAKey: "6LfhC7UqAAAAANndX6S1oGhWSLh3drD8Mf-53nMP" 
+  reCAPTCHAKey: "6LfhC7UqAAAAAKpmbdNcTWoe8pqwDu6y6HuzX0sO" 
   formspreeFormID: "xgvvrdlr" 
 
 ### Map [ mapSection ]
