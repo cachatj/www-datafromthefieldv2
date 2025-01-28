@@ -16,11 +16,11 @@ header:
 services:
   enable: true
   items:
-    - title: "GPS Movement Pattern profiling & Trajectory Data Mining"
+    - title: "Data Mining Movement Pattern Analysis & Trajectory Profiles"
       icon: "fas fa-globe"
       text: "geospatial data science, machine learning engineering from the field, usually off-road."
 
-    - title: "Automotive & IoT/Wireless Technology"
+    - title: "Onboard Telemetry & Offroad IoT Technology"
       icon: "fas fa-motorcycle"
       text: "onboard compute & sensors, Telemetrics & ML/AI integration."
 
