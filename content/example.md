@@ -6,10 +6,13 @@ sections:
   - headerSection
   - bodySection
 
-# Header section configuration
-backgroundColor:
+# Background effect
+colorsEffect: 
   enable: true
-  color: "#1E1E1E"
+  backgroundColor: "#143261"
+  backgroundColor2: "#010915"
+  ### Separated by commas and quotation marks
+  colours: [ "#dc202e", "#f7ed99", "#2d338b", "#76306b", "#ea8c2d" ]
 
 ---
 
@@ -38,7 +41,7 @@ def hello_world():
 
 ### Images
 
-![Alt text](path/to/image.jpg)
+![Alt text](/images/rzr_parallax_b&w.jpeg)
 
 ### And More
 
