@@ -5,7 +5,7 @@ builder: true
 sections:
   - headerSection
   - bodySection
-  - testimonalsSection
+  - testimonialsSection
 
 # Background effect
 colorsEffect: 
@@ -34,6 +34,11 @@ def hello_world():
     print("Hello, World!")
 ```
 
+### Testimonials
+
+{{< testimonials >}}
+
+
 ### Tables
 
 | Column 1 | Column 2 |
@@ -47,3 +52,4 @@ def hello_world():
 ### And More
 
 You can use **bold**, *italic*, and other markdown formatting as needed.
+
