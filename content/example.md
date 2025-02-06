@@ -5,6 +5,7 @@ builder: true
 sections:
   - headerSection
   - bodySection
+  - testimonalsSection
 
 # Background effect
 colorsEffect: 
@@ -36,7 +37,7 @@ def hello_world():
 ### Tables
 
 | Column 1 | Column 2 |
-|----------|----------|
+| -------- | -------- |
 | Cell 1   | Cell 2   |
 
 ### Images
