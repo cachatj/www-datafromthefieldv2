@@ -64,3 +64,22 @@ map:
 
     - title: "hello@datafromthefield.com"
       icon: "fas fa-paper-plane"
+
+### Testimonials [ testimonialsSection ]
+testimonials:
+  enable: true
+  items:
+    - name: "Matt Hamski"
+      title: "Manager, Machine Learning and Artificial Intelligence - Cardinal Health"
+      text: "Jonathan Cachat is a multi-faceted, talented technical professional that can fill a variety of roles on any team. JC has an incredible range of expertise - breadth and depth on data engineering, data science, ops, and data architecture.JC is a collaborative, strategic, and business-minded. Hes one of the best teammates and technical experts Ive ever worked with. Be sure to equip him with a powerful laptop and let him work his magic. Anyone who has the opportunity to work with JC will quickly understand that hes a gem."
+      image: 'images/mattHamski.jpeg'
+
+    - name: "Kyle Robinson"
+      title: "V.P. Of Operations at Sublime Solutions LLC"
+      text: "Jonathan and I have worked together in academia and industry since 2013. In both cases I have been grateful to have him as a colleague. Jonathan has over a decade of out of the box thinking that has improved efficiency and outcomes of any project I have worked with him on. I believe this comes from a strong data analysis and visualization capability, which allows for insight and communication with the team that improves success rate of projects."
+      image: 'images/mattHamski.jpeg'
+
+    - name: "UpWork Client"
+      title: "Data Analysis Project"
+      text: "'Jonathan was fast, communicative, and highly professional. He quickly understood the needs of our ask and the complexity of the research that needed to be visualized. While we provided a few drafts, they were sometimes incomplete. He was great about filling in our missing components, and quick to ask clarifying questions to complete the work. Final data visualizations reflected the accuracy and detail required by the team. The project started with a super tight turnaround, but the timeline changed a couple times—he was flexible, patient, and accommodating throughout these changes! Thanks, Jonathan!"
+      image: 'images/mattHamski.jpeg'
